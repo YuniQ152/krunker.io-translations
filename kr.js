@@ -21,6 +21,7 @@ generic.save 저장
 generic.load 불러오기
 generic.search 검색
 generic.leave 나가기
+generic.default 기본
 generic.submit 제출
 generic.create 게임 만들기
 generic.random 무작위
@@ -33,7 +34,7 @@ generic.off 끄기
 generic.defeat 패배
 generic.victory 승리
 generic.matchover 매치 종료
-generic.matchaband 상대가 매치를 나갔습니다
+generic.matchaband 상대가 게임을 나갔습니다.
 generic.follow 팔로우
 generic.unfollow 언팔로우
 generic.followers 팔로워
@@ -60,34 +61,46 @@ generic.accuracy 명중률
 player.waiting 플레이어 기다리는 중
 player.died 죽었습니다
 player.killed 나를 죽인 플레이어 -
-player.killstreak {0}님 {1} 연속 처치
+player.killstreak {0}님이 {1}명 연속 처치 중입니다.
 player.inactive 장시간 활동하지 않아 게임에서 제외되었습니다.
 player.disconnect 연결 끊기
-timer.end {0}초 후 다음 라운드가 시작합니다
+timer.end {0}초 후 다음 라운드가 시작합니다.
 leaderboard.empty 빈 로비
 popup.checkpoint 체크포인트!
-app.play 플레이하려면 클릭하세요
-app.play.controller 플레이하려면 START를 누르세요
+app.play 플레이하려면 클릭하세요.
+app.spectate 관전하려면 클릭하세요.
+app.play.mobile 플레이하려면 누르세요.
+app.spectate.mobile 관전하려면 누르세요.
+app.play.controller 플레이하려면 START를 누르세요.
+app.spectate.controller 관전하려면 START를 누르세요.
 purchase.error 오류가 발생했습니다
 purchase.error.click 여기</a>를 눌러서 다시 시도하세요!
-purchase.error.limit 일일 거래 한도를 초과했습니다
+purchase.error.limit 일일 거래 한도를 초과했습니다.
 settings.reset 초기화
 settings.reset.confirm 설정을 초기화할까요?
-settings.import 설정 불러오기
-settings.export 설정 저장하기
+settings.import 불러오기
+settings.export 내보내기
 settings.none 설정을 찾지 못하였습니다.
 settings.backup 설정 백업
 settings.controls.change 조작키 설정
-settings.controls.press 아무 키나 누르십시오
-settings.local.header 언어 설정 <span id="requiresRestart"><span style="color: #eb5656">*</span>크런커 재시작 필요</span>
+settings.controls.press 아무 키나 누르십시오.
+settings.local.header 언어 설정 <span id="requiresRestart"><span style="color: #eb5656">*</span>Krunker 재시작 필요</span>
 settings.local.region 기본 지역
 settings.local.lang 언어
 settings.network.header 네트워크
 settings.network.sendRate 높은 틱레이트
 settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
 settings.network.lagComp 지연 시간 보정
+settings.popup.header 팝업
+settings.popup.freeKRPop 무료 KR 팝업
 settings.experimental.header 실험적 설정
 settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
+settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
+settings.experimental.shaderRendering 인스턴스 렌더링
+settings.dev.header Developer
+settings.dev.forceUpdate Force Update Skins
+settings.dev.forceRegen Always Regenerate Player
+settings.dev.extraBan Extra Ban Info
 settings.chat.header 채팅
 settings.chat.chat 채팅창 표시
 settings.chat.chat.all 항상
@@ -109,7 +122,8 @@ settings.quality.mapDet 맵 디테일
 settings.quality.noTex 텍스처 끄기
 settings.quality.partdist 입자 렌더링 거리
 settings.quality.renderdist 렌더 거리
-settings.quality.antiAlias 안티에일리어싱
+settings.quality.reflection 반사 품질
+settings.quality.antiAlias 계단 현상 방지
 settings.quality.shadows 그림자
 settings.quality.softShad 부드러운 그림자
 settings.quality.highResShad 고해상도 그림자
@@ -120,13 +134,23 @@ settings.quality.mflash 총구 섬광
 settings.quality.flap 스나이퍼 스코프 덮개
 settings.quality.lowSpec 저사양 모드
 settings.quality.ambient 환경 광원 셰이딩
+settings.quality.ambientOld 구 셰이딩 사용 (가능한 경우)
 settings.quality.textureAnim 텍스처 애니메이션
 settings.quality.objectAnim 물체 애니메이션
 settings.quality.screenShake 화면 흔들림
 settings.quality.weaponShine 무기 광택
+settings.quality.rendGamma 감마
 settings.quality.lighting 조명
+settings.quality.showExplo 폭발 효과
 settings.quality.aspectRatio 화면 비율
-settings.quality.post 포스트 프로세싱
+settings.post.header 포스트 프로세싱
+settings.post.post 포스트 프로세싱
+settings.post.bloom 블룸
+settings.post.bloomThreshold 블룸 임계점
+settings.post.bloomStrength 블룸 강도
+settings.post.bloomRadius 블룸 반경
+settings.post.ssao 화면 공간 반사
+settings.post.ssaoRadius 화면 공간 반사 반경
 settings.interface.hitInd 히트마커 표시
 settings.interface.hitColor 히트마커 색상
 settings.interface.dmg 피해량 표시
@@ -139,6 +163,7 @@ settings.interface.scoreboard 구 스코어보드 사용
 settings.interface.oldBrowser 구 서버 탐색기 사용
 settings.interface.rarityanim 희귀도 애니메이션 끄기
 settings.interface.showPfp 프로필 사진 표시
+settings.interface.showTradeMsg 트레이드 메시지 표시
 settings.interface.hp 동적 HP 막대
 settings.interface.dmgScale 피해량 숫자 크기
 settings.interface.killf 킬로그 표시
@@ -146,6 +171,7 @@ settings.interface.ping 지연 시간 표시
 settings.interface.net-stats 네트워크 통계 표시
 settings.interface.fps FPS 표시
 settings.interface.deaths 죽음 수 표시
+settings.interface.kd KDR 수 표시
 settings.interface.kills 처치 수 표시
 settings.interface.streak 연속 처치 수 표시
 settings.interface.score 점수 표시
@@ -214,9 +240,13 @@ settings.onKillS.style.0 기본
 settings.onKillS.style.1 해상도 축소
 settings.onKillS.style.2 FOV 축소
 settings.onKillS.style.3 FOV 확대
+settings.serverb.header 서버 목록
+settings.serverb.oldBrowser 이전 방식 서버 목록 (목록을 서버 위치 기준으로 분류)
+settings.serverb.defaultRegionOnly 기본 지역만 보이기
 settings.gameprivacy.header 게임플레이 프라이버시
 settings.gameprivacy.streamer 스트리머 모드
 settings.gameprivacy.anon 익명 모드
+settings.gameprivacy.hideGameTitle 게임 숨기기 제목
 settings.gameplay.header 게임플레이
 settings.gameplay.sensitivityX 좌우 감도
 settings.gameplay.sensitivityY 상하 감도
@@ -228,6 +258,7 @@ settings.gameplay.onkillS 처치 시
 settings.gameplay.scrollDir 스크롤 방향
 settings.controller.header 게임패드
 settings.controller.sensitivityX 좌우 감도
+settings.controller.disableCons 컨트롤러 비활성화
 settings.controller.sensitivityY 상하 감도
 settings.controller.aimsensX 조준 좌우 감도
 settings.controller.aimsensY 조준 상하 감도
@@ -251,7 +282,10 @@ settings.audio.ambient 환경 음량
 settings.audio.voice 음성 음량
 settings.audio.weps 무기 음량
 settings.audio.player 플레이어 음량
+settings.audio.skin Cosmetics Volume
 settings.audio.ui 인터페이스 음량
+settings.audio.asset Asset Volume
+settings.audio.dialogue Action Volume
 settings.viewmodel.header 무기 모델
 settings.viewmodel.fov 시야각 (FOV)
 settings.viewmodel.fps 무기 시야각
@@ -259,8 +293,10 @@ settings.viewmodel.bobbing 무기 흔들림
 settings.viewmodel.leaning 무기 기울기
 settings.viewmodel.show.primary 주무기 보이기
 settings.viewmodel.show.secondary 보조무기 보이기
+settings.viewmodel.roundArms 둥근 팔
 settings.viewmodel.show.melee 근접무기 보이기
 settings.viewmodel.show.ads 조준 시 무기 숨기기
+settings.viewmodel.toggleAim 조준 전환
 settings.viewmodel.show.hands 손 보이기
 settings.viewmodel.leftHand 왼손잡이 모드
 settings.viewmodel.aimAnim 무기 조준 애니메이션
@@ -268,9 +304,11 @@ settings.viewmodel.rot 무기 회전
 settings.viewmodel.xOff 무기 X축 위치
 settings.viewmodel.yOff 무기 Y축 위치
 settings.viewmodel.zOff 무기 Z축 위치
+settings.viewmodel.weapSwapY Weapon Swap Y
+settings.viewmodel.weapReloadY Weapon Reload Y
 settings.viewmodel.yOffADS 무기 조준 Y축 위치
 settings.viewmodel.adsFovMlt 무기 조준 배율
-settings.editing.header UI 효과 편집
+settings.editing.header 인터페이스 효과
 settings.editing.health.high HUD HP 정상 색상
 settings.editing.health.low HUD HP 낮음 색상
 settings.editing.speedLines 속도 효과선
@@ -281,24 +319,37 @@ settings.editing.score.scale 점수 팝업 크기
 settings.editing.score.shadow 점수 팝업 그림자
 settings.editing.scoreOffX 점수 팝업 X축 위치
 settings.editing.scoreOffY 점수 팝업 Y축 위치
+settings.editing.prog.color Progress Bar Color
+settings.editing.prog.opacity Progress Bar Opacity
+settings.editing.prog.scale Progress Bar Scale
+settings.editing.prog.shadow Progress Bar Shadow
+settings.editing.progOffX Progress Bar X Offset
+settings.editing.progOffY Progress Bar Y Offset
+settings.editing.progRot Progress Bar Rotation
 settings.editing.saturation 그래픽 채도
-settings.editing.menuSaturation UI 채도
+settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
-settings.editing.menuHue UI 색상
+settings.editing.menuHue 인터페이스 색상
 settings.editing.vignette 화면 테두리 어둡게 하기
 settings.editing.feedLimit 킬로그 제한
 settings.editing.depth 깊이 지도
 settings.editing.green 크로마 키
 settings.editing.tracercol 예광탄 색상
 settings.editing.tracer 예광탄
+settings.editing.tracer.offset Tracer Offset
 settings.shaders.header 셰이더 입력
 settings.mods.header 사용자 설정
 settings.mods.load 모드 사용
 settings.mods.logo 로고 변경 혀용
 settings.mods.auto 모드 자동 적용
 settings.mods.borders 스나이퍼 스코프 경계
+settings.mods.borderCol 스코프 테두리
+settings.mods.borderOpac 스코프 테두리 불투명도
 settings.mods.scope 스코프 이미지
 settings.mods.scope.paste 스코프 이미지 URL
+settings.mods.scope.opacity 스코프 불투명도
+settings.mods.scope.width 스코프 이미지 너비
+settings.mods.scope.height 스코프 이미지 높이
 settings.mods.dot 십자선 이미지
 settings.mods.dot.width 십자선 이미지 너비
 settings.mods.dot.height 십자선 이미지 높이
@@ -321,8 +372,9 @@ settings.mods.damage 피해량 오버레이 이미지
 settings.mods.damage.paste 피해량 오버레이 이미지 URL
 settings.mods.overlay 게임 오버레이 이미지
 settings.mods.overlay.paste 게임 오버레이 이미지 URL
+settings.social.region Region Stats
 windows.settings.header 게임 설정
-windows.mail.header 크런커 메일
+windows.mail.header Krunker 메일
 windows.servers.header 서버
 windows.servers.none 참가할 수 있는 게임이 없습니다.
 windows.servers.host + 게임 만들기
@@ -335,18 +387,21 @@ windows.loadout.class 클래스
 windows.loadout.primary 주무기
 windows.loadout.primary.attach 장착품
 windows.loadout.primary.reticle 조준 십자선
+windows.loadout.primary.scope 스코프
 windows.loadout.secondary 보조무기
 windows.loadout.secondary.skin 보조무기 스킨
 windows.loadout.melee 근접 무기
 windows.loadout.hat 모자
 windows.loadout.body 몸통
 windows.loadout.waist 허리
+windows.loadout.shoe 신발
 windows.loadout.face 얼굴
 windows.loadout.spray 스프레이
 windows.loadout.color.skin 피부 색상
 windows.loadout.color.chat 채팅창 이름 색상
 windows.loadout.color.hair 머리카락 색상
 windows.loadout.dye 염료
+windows.loadout.pet 펫
 windows.loadout.stat 처치 카드에 보여질 스탯
 windows.loadout.flag 국기
 windows.mods.drop 모드 파일을 여기에 드래그 또는 클릭
@@ -360,12 +415,12 @@ windows.mods.load.header 모드 적용
 windows.mods.publish 모드 업로드
 windows.mods.viewer 뷰어
 windows.account.header 계정
-windows.account.recover 계정 복구는 <a>krunker@yendis.ch</a>로 이메일을 보내십시오
+windows.account.recover 계정 복구는 <a>krunker@yendis.ch</a>로 이메일을 보내십시오.
 windows.class.header 클래스 선택
-windows.controls.header 조작법 바꾸기,
+windows.controls.header 조작법 바꾸기
 windows.controls.forward 앞
 windows.controls.backward 뒤
-windows.controls.left 좌,
+windows.controls.left 좌
 windows.controls.right 우
 windows.controls.reload 재장전
 windows.controls.aim 조준
@@ -384,21 +439,24 @@ windows.controls.list 플레이어 목록
 windows.controls.board 리더보드
 windows.controls.interact 주 사용하기
 windows.controls.interactSec 부 사용하기
+windows.controls.confirm 사용하기 확인
 windows.controls.drop 무기 떨어뜨리기
-windows.controls.wepVis 무기 보이기 토글
+windows.controls.wepVis 무기 보이기 전환
 windows.controls.streak0 연속 처치 1
 windows.controls.streak1 연속 처치 2
 windows.controls.streak2 연속 처치 3
 windows.controls.streak3 연속 처치 4
 windows.controls.streak4 연속 처치 5
 windows.controls.premium0 벽 통과
-windows.controls.premium1 만능 모드
+windows.controls.premium1 무적 모드
 windows.controls.premium2 자살
 windows.controls.premium3 즉사 모드
+windows.controls.reset 위치 초기화 (Race, Parkour 모드 전용)
+windows.controls.pretend 게임 숨기기
 windows.host.header 커스텀 게임 만들기
 windows.host.maps 서버 설정
 windows.host.cmaps 커뮤니티 게임
-windows.host.raw 가공되지 않은 게임 데이터
+windows.host.raw 텍스트 게임 데이터
 windows.host.modes 게임 모드 선택
 windows.host.classes 클래스 선택
 windows.host.settings 서버 설정
@@ -436,25 +494,28 @@ windows.clans.join 클랜 가입
 windows.clans.login 하고 클랜을 만들고 가입하세요!
 windows.store.header 상점
 windows.store.spin {0} 스핀
-windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다
+windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다.
 windows.store.purchase KR 구매
 windows.store.voucher KR 바우처 코드 입력
 windows.store.voucherinfo 특정 스트리머와 이벤트를 통해서 KR 바우처 코드를 얻으세요!
 windows.store.market 마켓
-windows.store.market2 크런커 마켓
+windows.store.market2 Krunker 마켓
 windows.store.premium 프리미엄 구독
-windows.store.premium2 크런커 프리미엄
-windows.store.buyP 크런커 프리미엄으로 표시 이름을 바꾸고 더 많은 혜택을 누리세요!
+windows.store.premium2 Krunker 프리미엄
+windows.store.buyP Krunker 프리미엄으로 표시 이름을 바꾸고 더 많은 혜택을 누리세요!
 windows.store.buy 아이템을 사고팔 때는
 windows.store.wheels 경품 뽑기
 windows.store.unlock 새 무기 스킨과 아이템을 얻으세요!
 windows.store.amount {0} KR이 계정에 있습니다
 windows.store.login 해서 마켓에서 아이템을 사고파세요!
 windows.store.purchasing 구매 중...
-windows.store.unboxed {0}{1} 구매 완료
+windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다.
+windows.trade.header 트레이드 중
+windows.scope.header 스코프 선택
+windows.premium.header Premium
 windows.skin.header 스킨 선택
 windows.hat.header 모자 선택
-windows.back.header 망토 선택
+windows.back.header 몸통 선택
 windows.waist.header 허리 선택
 windows.face.header 얼굴 선택
 windows.melee.header 근접무기 선택
@@ -483,14 +544,14 @@ windows.secondary.unlocked 잠금 해제됨
 windows.secondary.req {0}레벨 필요
 windows.advertise.header 광고하기
 windows.support.header 고객지원
-windows.players.header 플레이어 목록t
+windows.players.header 플레이어 목록
 windows.players.none 현재 플레이어가 없습니다...
 windows.join.header 참가
-windows.join.code 게임 URL이나 코드를 입력하세요
+windows.join.code 게임 URL이나 코드를 입력하세요.
 windows.client.header 클라이언트
-windows.client.windows 윈도우
+windows.client.windows Windows
 windows.client.mac macOS
-windows.client.linux 리눅스
+windows.client.linux Linux
 windows.ranked.header 랭크
 windows.ranked.login 해서 랭크 게임에 참가하세요!
 windows.ranked.level 랭크 게임을 하려면 최소<span color="black">{0}레벨</span>이어야 합니다! 지금 당신은 <span color="black">{1}레벨</span>입니다.
@@ -499,8 +560,8 @@ windows.ranked.mode.r2v2 2 vs 2
 windows.ranked.mode.r4v4 4 vs 4
 windows.chall.header 챌린지
 windows.chall.login 해서 챌린지에 도전하세요!
-thumbnail.upload.limit 썸네일 업로드 실패. 최대 {0}KB까지 가능합니다
-image.upload.limit 이미지 업로드 실패. 최대 {0}KB까지 가능합니다
+thumbnail.upload.limit 썸네일 업로드 실패. 최대 {0}KB까지 가능합니다.
+image.upload.limit 이미지 업로드 실패. 최대 {0}KB까지 가능합니다.
 thumbnail.upload.error 썸네일 오류
 mod.extracting 모드 추출 중... {0}/{1}
 mod.disabled 모드가 비활성화되어 있습니다.
@@ -513,15 +574,15 @@ matchmaker.updating 업데이트중...
 matchmaker.invalid 게임을 찾을 수 없습니다.
 matchmaker.none 서버 용량이 가득 찼습니다.
 adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
-ad-failed 광고를 받아오지 못하였습니다. 나중에 다시 시도하세요
+ad-failed 광고를 받아오지 못하였습니다. 나중에 다시 시도하세요.
 streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
-error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오
-error.seek 다른 게임을 찾아보려면 here를 클릭하세요
+error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오.
+error.seek 다른 게임을 찾아보려면 here를 클릭하세요.
 custom.map.upload.limit 실패했습니다. 맵 데이터는 50만 글자 이내여야 합니다.
-custom.map.missing 최소 하나의 맵을 선택하세요
-custom.mode.missing 최소 하나의 게임 모드를 선택하세요
-custom.class.missing 최소 하나의 클래스를 선택하세요
+custom.map.missing 최소 하나의 맵을 선택하세요.
+custom.mode.missing 최소 하나의 게임 모드를 선택하세요.
+custom.class.missing 최소 하나의 클래스를 선택하세요.
 server.config.maxPlayers 최대 플레이어 수
 server.config.minPlayers 최소 플레이어 수
 server.config.lives 목숨
@@ -537,10 +598,20 @@ server.config.strafeSpd 좌우 이동 속도
 server.config.fiRat 연사 속도
 server.config.reSpd 재장전 시간
 server.config.slidTime 슬라이딩 시간
+server.config.fixMov Fixed Movement
+server.config.slidSpd 슬라이드 속도
 server.config.healthMlt HP 배수
 server.config.impulseMlt 무기 반동 배수
 server.config.nameTeam1 1팀 이름
 server.config.nameTeam2 2팀 이름
+server.config.nameTeam3 3팀 이름
+server.config.nameTeam4 4팀 이름
+server.config.nameTeam5 5팀 이름
+server.config.t1Dmg 1팀 피해량 배수
+server.config.t2Dmg 2팀 피해량 배수
+server.config.t3Dmg 3팀 피해량 배수
+server.config.t4Dmg 4팀 피해량 배수
+server.config.t5Dmg 5팀 피해량 배수
 server.config.selTeam 참가 시 팀 선택
 server.config.allowSpect 관전 중
 server.config.killRewards 킬 점수
@@ -556,18 +627,24 @@ server.config.requireCaptcha Captcha 요구하기
 server.config.nameTags 이름표 숨기기
 server.config.noReload 재장전 없음
 server.config.private 비공개
+server.config.krRewards KR 보상
 server.config.warmupTime 준비 시간
+server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
 server.config.scoreLimit 점수 제한
+server.config.keepTScore 팀 점수 유지
+server.config.forceC Force Mode Classes
+server.config.logTim 시간 기록 (Race, Parkour 전용)
 server.config.hitBoxPad 히트박스 크기
 server.config.hpRegen HP 재생
 server.config.disableB 경계 비활성화
 server.config.throwMel 근접무기 던지기
+server.config.noCosm Disable Cosmetics
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
-social.login.buy 구매하려면 로그인하세요
-social.login.sell 판매하려면 로그인하세요
-social.login.gift KR을 주려면 로그인하세요
+social.login.buy 구매하려면 로그인하세요.
+social.login.sell 판매하려면 로그인하세요.
+social.login.gift KR을 주려면 로그인하세요.
 social.login.proccessing 로그인 중...
 social.since 첫 등록일
 social.user.maps 이 유저의 게임
@@ -582,27 +659,29 @@ social.market.list 아이템 게시하기
 social.market.unlist 게시 취소하기
 social.market.unlisting 게시 취소 중...
 social.market.posting 아이템 게시 중...
-social.market.req {0}레벨 이상이어야 합니다
+social.market.req {0}레벨 이상이어야 합니다.
 social.market.cant KR이 부족합니다
 social.market.purchase 구매
 social.market.fee 게시 수수료 없음
-social.market.failed 실패했습니다. 다시 해보십시오
+social.market.failed 실패했습니다. 다시 해보십시오.
 social.market.head 머리 아이템
-social.market.back 망토 아이템
+social.market.back 몸통 아이템
 social.market.waist 허리 아이템
 social.market.face 얼굴 아이템
+social.market.shoe 신발 아이템
+social.market.pet 펫 아이템
 social.market.melee 근접무기 아이템
 social.market.spray 스프레이 아이템
 social.market.dye 염료 아이템
-social.market.none 찾은 아이템이 없습니다
+social.market.none 찾은 아이템이 없습니다.
 social.market.login 먼저 로그인하십시오.
-social.market.grace {0}초 후에 준비됩니다
+social.market.grace {0}초 후에 준비됩니다.
 social.market.sort 필터/정렬
 social.market.filter 검색
 social.market.sort2 정렬
 social.market.price.high 가격 내림차순
 social.trading.submitting 트레이드 보내는 중...
-social.market.gift.amount 선물할 양
+social.market.gift.amount 선물할
 social.market.fee.gift 수수료 없음
 social.market.gift KR 선물하기
 social.market.gift.msg 문자 남기기
