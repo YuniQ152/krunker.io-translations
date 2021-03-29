@@ -177,8 +177,8 @@ settings.interface.streak 연속 처치 수 표시
 settings.interface.score 점수 표시
 settings.interface.spectators 관전자 수 표시
 settings.interface.speed 이동 속도 표시
-settings.interface.speedOffX 이동 속도 X축 위치
-settings.interface.speedOffY 이동 속도 Y축 위치
+settings.interface.speedOffX 이동 속도 좌우 위치
+settings.interface.speedOffY 이동 속도 상하 위치
 settings.interface.speedOpacity 이동 속도 불투명도
 settings.interface.speedScale 이동 속도 크기
 settings.interface.speedColor  현재 속도 색상
@@ -240,8 +240,8 @@ settings.onKillS.style.0 기본
 settings.onKillS.style.1 해상도 축소
 settings.onKillS.style.2 FOV 축소
 settings.onKillS.style.3 FOV 확대
-settings.serverb.header 서버 목록
-settings.serverb.oldBrowser 이전 방식 서버 목록 (목록을 서버 위치 기준으로 분류)
+settings.serverb.header 서버 탐색기
+settings.serverb.oldBrowser 구 서버 탐색기 사용 (목록을 서버 위치 기준으로 분류)
 settings.serverb.defaultRegionOnly 기본 지역만 보이기
 settings.gameprivacy.header 게임플레이 프라이버시
 settings.gameprivacy.streamer 스트리머 모드
@@ -282,10 +282,10 @@ settings.audio.ambient 환경 음량
 settings.audio.voice 음성 음량
 settings.audio.weps 무기 음량
 settings.audio.player 플레이어 음량
-settings.audio.skin Cosmetics Volume
+settings.audio.skin 외형 아이템 음량
 settings.audio.ui 인터페이스 음량
-settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
+settings.audio.asset 애셋 음량
+settings.audio.dialogue 동작 음량
 settings.viewmodel.header 무기 모델
 settings.viewmodel.fov 시야각 (FOV)
 settings.viewmodel.fps 무기 시야각
@@ -301,12 +301,12 @@ settings.viewmodel.show.hands 손 보이기
 settings.viewmodel.leftHand 왼손잡이 모드
 settings.viewmodel.aimAnim 무기 조준 애니메이션
 settings.viewmodel.rot 무기 회전
-settings.viewmodel.xOff 무기 X축 위치
-settings.viewmodel.yOff 무기 Y축 위치
-settings.viewmodel.zOff 무기 Z축 위치
-settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS 무기 조준 Y축 위치
+settings.viewmodel.xOff 무기 좌우 위치
+settings.viewmodel.yOff 무기 상하 위치
+settings.viewmodel.zOff 무기 전후 위치
+settings.viewmodel.weapSwapY 무기 전환 상하 위치
+settings.viewmodel.weapReloadY 무기 재장전 상하 위치
+settings.viewmodel.yOffADS 무기 조준 상하 위치
 settings.viewmodel.adsFovMlt 무기 조준 배율
 settings.editing.header 인터페이스 효과
 settings.editing.health.high HUD HP 정상 색상
@@ -317,15 +317,15 @@ settings.editing.score.color 점수 팝업 색상
 settings.editing.score.show 점수 팝업 보이기
 settings.editing.score.scale 점수 팝업 크기
 settings.editing.score.shadow 점수 팝업 그림자
-settings.editing.scoreOffX 점수 팝업 X축 위치
-settings.editing.scoreOffY 점수 팝업 Y축 위치
-settings.editing.prog.color Progress Bar Color
-settings.editing.prog.opacity Progress Bar Opacity
-settings.editing.prog.scale Progress Bar Scale
-settings.editing.prog.shadow Progress Bar Shadow
-settings.editing.progOffX Progress Bar X Offset
-settings.editing.progOffY Progress Bar Y Offset
-settings.editing.progRot Progress Bar Rotation
+settings.editing.scoreOffX 점수 팝업 좌우 위치
+settings.editing.scoreOffY 점수 팝업 상하 위치
+settings.editing.prog.color 진행 막대 색상
+settings.editing.prog.opacity 진행 막대 불투명도
+settings.editing.prog.scale 진행 막대 크기
+settings.editing.prog.shadow 진행 막대 그림자
+settings.editing.progOffX 진행 막대 좌우 위치
+settings.editing.progOffY 진행 막대 상하 위치
+settings.editing.progRot 진행 막대 회전
 settings.editing.saturation 그래픽 채도
 settings.editing.menuSaturation 인터페이스 채도
 settings.editing.hue 그래픽 색상
@@ -336,7 +336,7 @@ settings.editing.depth 깊이 지도
 settings.editing.green 크로마 키
 settings.editing.tracercol 예광탄 색상
 settings.editing.tracer 예광탄
-settings.editing.tracer.offset Tracer Offset
+settings.editing.tracer.offset 예광탄 출발 위치
 settings.shaders.header 셰이더 입력
 settings.mods.header 사용자 설정
 settings.mods.load 모드 사용
@@ -512,7 +512,7 @@ windows.store.purchasing 구매 중...
 windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다.
 windows.trade.header 트레이드 중
 windows.scope.header 스코프 선택
-windows.premium.header Premium
+windows.premium.header 프리미엄
 windows.skin.header 스킨 선택
 windows.hat.header 모자 선택
 windows.back.header 몸통 선택
@@ -555,9 +555,9 @@ windows.client.linux Linux
 windows.ranked.header 랭크
 windows.ranked.login 해서 랭크 게임에 참가하세요!
 windows.ranked.level 랭크 게임을 하려면 최소<span color="black">{0}레벨</span>이어야 합니다! 지금 당신은 <span color="black">{1}레벨</span>입니다.
-windows.ranked.mode.r1v1 1 vs 1
-windows.ranked.mode.r2v2 2 vs 2
-windows.ranked.mode.r4v4 4 vs 4
+windows.ranked.mode.r1v1 1대1
+windows.ranked.mode.r2v2 2대2
+windows.ranked.mode.r4v4 4대4
 windows.chall.header 챌린지
 windows.chall.login 해서 챌린지에 도전하세요!
 thumbnail.upload.limit 썸네일 업로드 실패. 최대 {0}KB까지 가능합니다.
@@ -579,7 +579,7 @@ streamers.views 시청자 {0}명
 streamers.none 생방송이 없습니다!
 error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해보십시오.
 error.seek 다른 게임을 찾아보려면 here를 클릭하세요.
-custom.map.upload.limit 실패했습니다. 맵 데이터는 50만 글자 이내여야 합니다.
+custom.map.upload.limit 실패했습니다. 맵 데이터는 500KB 이내여야 합니다.
 custom.map.missing 최소 하나의 맵을 선택하세요.
 custom.mode.missing 최소 하나의 게임 모드를 선택하세요.
 custom.class.missing 최소 하나의 클래스를 선택하세요.
@@ -633,13 +633,13 @@ server.config.objtvTime 거점 변경 시간
 server.config.forceSpawn 강제 리스폰 시간
 server.config.scoreLimit 점수 제한
 server.config.keepTScore 팀 점수 유지
-server.config.forceC Force Mode Classes
+server.config.forceC 게임 모드 클래스 강제 적용
 server.config.logTim 시간 기록 (Race, Parkour 전용)
 server.config.hitBoxPad 히트박스 크기
 server.config.hpRegen HP 재생
 server.config.disableB 경계 비활성화
 server.config.throwMel 근접무기 던지기
-server.config.noCosm Disable Cosmetics
+server.config.noCosm 외형 아이템 비활성화
 social.login 로그인/회원가입
 social.login.failed 로그인 실패
 social.login.buy 구매하려면 로그인하세요.
