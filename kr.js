@@ -770,7 +770,7 @@ social.trades.out 요청 보냄
 social.trades.out.head 보낸 요청 ({0})
 social.trades.history 기록
 social.trades.history.head 트레이드 기록 ({0})
-social.trades.decline 모두 거절
+social.trades.decline 모두 거절하기
 social.trades.message 메시지를 보려면 설정에서 트레이드 메시지 표시를 활성화하세요.
 social.trades.warning 이 요청을 통해 얻을 수 있는 아이템이 없습니다!
 social.trades.accept 정말로 이 트레이드 요청을 수락하시겠습니까?
