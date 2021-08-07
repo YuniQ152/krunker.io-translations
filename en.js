@@ -1,821 +1,821 @@
 module.exports = `
-menu.btn.ranked Ranked
-menu.btn.shop Shop
-menu.btn.social Hub
-menu.btn.maps Games
-menu.btn.mods Mods
-menu.btn.settings Settings
-menu.btn.customize Customize
-menu.btn.invite Invite
-menu.btn.invite.clicked Copied
-menu.btn.join Join
-menu.btn.host Host Game
-menu.btn.browser Servers
-generic.wait Please wait...
-generic.loading LOADING...
-generic.none None
-generic.connecting CONNECTING...
-generic.select Select
-generic.delete Delete
-generic.save Save
-generic.load Load
-generic.search Search
-generic.leave Leave
-generic.default Default
-generic.submit Submit
-generic.create Create
-generic.random Random
-generic.failed Failed
-generic.success Success!
-generic.name Name
-generic.level Level
-generic.score Score
-generic.off Off
-generic.defeat DEFEAT
-generic.victory VICTORY
-generic.matchover MATCH OVER
-generic.matchaband MATCH ABANDONED
-generic.follow Follow
-generic.unfollow Unfollow
-generic.followers Followers
-generic.following following
-generic.games Games
-generic.wins Wins
-generic.lose Losses
-generic.clan Clan
-generic.games.played Games Played
-generic.games.won Games Won
-generic.games.lost Games Lost
-generic.timep Time Played
-generic.kills Kills
-generic.deaths Deaths
+menu.btn.ranked 랭크전
+menu.btn.shop 상점
+menu.btn.social 허브
+menu.btn.maps 사용자 지정 게임
+menu.btn.mods Mod
+menu.btn.settings 설정
+menu.btn.customize 개인 설정
+menu.btn.invite 초대
+menu.btn.invite.clicked 초대 링크 복사됨
+menu.btn.join 게임 참가
+menu.btn.host 만들기
+menu.btn.browser 브라우저
+generic.wait 잠시만 기다리세요...
+generic.loading 로딩 중...
+generic.none 없음
+generic.connecting 연결 중...
+generic.select 선택
+generic.delete 삭제
+generic.save 저장
+generic.load 불러오기
+generic.search 검색
+generic.leave 나가기
+generic.default 기본
+generic.submit 제출
+generic.create 게임 만들기
+generic.random 무작위
+generic.failed 실패
+generic.success 완료
+generic.name 이름
+generic.level 레벨
+generic.score 점수
+generic.off 끄기
+generic.defeat 패배
+generic.victory 승리
+generic.matchover 매치 종료
+generic.matchaband 상대가 게임을 나갔습니다
+generic.follow 팔로우
+generic.unfollow 언팔로우
+generic.followers 팔로워
+generic.following 팔로잉
+generic.games 게임 수
+generic.wins 승리
+generic.lose 패배
+generic.clan 클랜
+generic.games.played 플레이한 게임
+generic.games.won 승리한 게임
+generic.games.lost 패배한 게임
+generic.timep 플레이 시간
+generic.kills 처치
+generic.deaths 사망
 generic.kdr KDR
-generic.time Time
-generic.logout Logout
-generic.logout.sessions Logout of all Sessions
-generic.username Enter Username
-generic.password Enter Password
-generic.register Register
-generic.login Login
-generic.accuracy Accuracy
-player.waiting waiting for players
-player.died You died
-player.killed Killed By
+generic.time 플레이 시간
+generic.logout 로그아웃
+generic.logout.sessions 모든 세션에서 로그아웃
+generic.username 아이디
+generic.password 비밀번호
+generic.register 가입
+generic.login 로그인
+generic.accuracy 명중률
+player.waiting 플레이어 기다리는 중
+player.died 죽었습니다
+player.killed 나를 죽인 플레이어
 player.killstreak {0} on a {1} Kill Streak
-player.inactive Kicked for inactivity
-player.disconnect DISCONNECTED
-timer.end Next Round in {0}
-leaderboard.empty Empty Lobby
-popup.checkpoint Checkpoint!
-app.play CLICK TO PLAY
-app.spectate CLICK TO SPECTATE
-app.play.mobile TAP TO PLAY
-app.spectate.mobile TAP TO SPECTATE
-app.play.controller PRESS START
-app.spectate.controller START to SPECTATE
-purchase.error Error occurred
-purchase.error.click click here</a> and try again!
-purchase.error.limit You may have exceeded your daily transaction limit
-settings.reset Reset
-settings.reset.confirm Are you sure you want to reset all your settings?
-settings.import Import
-settings.export Export
-settings.none No settings found
-settings.backup Backup Settings
-settings.controls.change Keybinds
-settings.controls.press Press any Key
-settings.local.header Localization <span id="requiresRestart"><span style="color: #eb5656">*</span> requires restart</span>
-settings.local.region Default Region
-settings.local.lang Language
-settings.network.header Network
-settings.network.sendRate High Tickrate
-settings.network.netRerouting Auto Routing (Affects Ping)
-settings.network.lagComp Lag Compensation
+player.inactive 장시간 활동하지 않아 게임에서 퇴장되었습니다
+player.disconnect 연결 끊김
+timer.end {0}초 후 다음 라운드가 시작합니다
+leaderboard.empty 빈 로비
+popup.checkpoint 체크포인트!
+app.play 플레이하려면 클릭하세요
+app.spectate 관전하려면 클릭하세요
+app.play.mobile 플레이하려면 누르세요
+app.spectate.mobile 관전하려면 누르세요
+app.play.controller 플레이하려면 START를 누르세요
+app.spectate.controller 관전하려면 START를 누르세요
+purchase.error 오류가 발생했습니다
+purchase.error.click 여기</a>를 눌러서 다시 시도하세요!
+purchase.error.limit 일일 트레이드 한도를 초과했습니다
+settings.reset 초기화
+settings.reset.confirm 설정을 초기화할까요?
+settings.import 불러오기
+settings.export 내보내기
+settings.none 설정을 찾지 못했습니다
+settings.backup 설정 백업
+settings.controls.change 조작키 설정
+settings.controls.press 아무 키나 누르십시오
+settings.local.header 언어 설정 <span id="requiresRestart"><span style="color: #eb5656">*</span>재시작 필요</span>
+settings.local.region 기본 지역
+settings.local.lang 언어
+settings.network.header 네트워크
+settings.network.sendRate 높은 틱레이트
+settings.network.netRerouting 자동 라우팅 (핑에 영향을 줍니다)
+settings.network.lagComp 지연 시간 보정
 settings.network.hitReg Hitreg Test
-settings.popup.header Popups
-settings.popup.freeKRPop Show Free KR Popup
-settings.experimental.header Experimental
-settings.experimental.aimFreezeFix Aim Freeze Fix
-settings.experimental.mouseFlickFix Mouse Flick Fix
-settings.experimental.shaderRendering Instance Rendering
-settings.experimental.staticRendering Static Rendering
-settings.client.header Client
-settings.client.unlimitedFrames Unlimited FPS
-settings.client.gameCap Game Capture
-settings.client.experimental Experimental Features
-settings.client.discordRPC Discord RPC
-settings.client.resourceSwapper Resource Swapper
-settings.client.clearCache Clear Cache
-settings.client.resetSettings Reset Client Settings
-settings.client.acceleratedCanvas Accelerated Canvas
-settings.client.angleBackend ANGLE Graphics Backend
-settings.client.colorProfile Color Profile
-settings.dev.header Developer
-settings.dev.forceUpdate Force Update Skins
-settings.dev.forceRegen Always Regenerate Player
-settings.dev.extraBan Extra Ban Info
-settings.chat.header Chat
-settings.chat.chat Show Chat Box
-settings.chat.chat.all Always
-settings.chat.chat.focus While Focused
-settings.chat.messages Show Player Messages
-settings.chat.unboxings Show Unboxings
-settings.chat.chatOp Chat Opacity
-settings.chat.chatBGOp Chat BG Opacity
-settings.chat.chatHeight Chat Height
-settings.chat.chatTimer Chat Timer (s)
-settings.chat.chatTextOutline Chat Text Outline
-settings.chat.chatFilter Profanity Filter
-settings.quality.header Performance
-settings.quality.updRate Frame Cap
-settings.quality.rendDst Render Distance
-settings.quality.res Resolution
-settings.quality.part Particles
-settings.quality.mapDet Map Details
-settings.quality.noTex No Textures
-settings.quality.partdist Particle Distance
-settings.quality.renderdist Render Distance
-settings.quality.reflection Reflection Quality
-settings.quality.antiAlias Antialiasing
-settings.quality.shadows Shadows
-settings.quality.softShad Soft Shadows
-settings.quality.highResShad High-Res Shadows
-settings.quality.shadowsDynamic Dynamic Shadows
-settings.quality.trails Bullet Trails
-settings.quality.yourTrails Your Trails
-settings.quality.mflash Muzzle Flash
-settings.quality.flap Show Sniper Flap
-settings.quality.lowSpec Low Spec
-settings.quality.ambient Ambient Shading
-settings.quality.ambientOld Old Shading (When Possible)
-settings.quality.textureAnim Texture Animations
-settings.quality.objectAnim Object Animations
-settings.quality.screenShake Screen Shake
-settings.quality.weaponShine Weapons Shine
-settings.quality.rendGamma Gamma
-settings.quality.lighting Lighting
-settings.quality.showExplo Show Explosions
-settings.quality.aspectRatio Aspect Ratio
-settings.post.header Post Processing
-settings.post.post Post Processing
-settings.post.bloom Bloom
-settings.post.bloomThreshold Bloom Threshold
-settings.post.bloomStrength Bloom Strength
-settings.post.bloomRadius Bloom Radius
-settings.post.ssao SSAO
-settings.post.ssaoRadius SSAO Radius
-settings.interface.hitInd Show Hit Indicators
-settings.interface.hitColor Hit Indicator Color
-settings.interface.dmg Show Damage
-settings.interface.dmgCol Damage Color
-settings.interface.critCol Crit Color
-settings.interface.header Interface
-settings.interface.scale UI Scale
-settings.interface.ui Show UI
-settings.interface.scoreboard Use Old Scoreboard
-settings.interface.oldBrowser Use Old Browser
-settings.interface.rarityanim Disable Rarity Animations
-settings.interface.showPfp Show Profile Pictures
-settings.interface.showTradeMsg Show Trade Messages
-settings.interface.hideNonTrade Hide Non-Tradable Skins
-settings.interface.hp Dynamic HP Bars
-settings.interface.dmgScale Damage Scale
-settings.interface.killf Show Kill Feed
-settings.interface.ping Show Ping
-settings.interface.net-stats Show Network Stats
-settings.interface.fps Show FPS
-settings.interface.deaths Show Death Counter
-settings.interface.kd Show K/D Counter
-settings.interface.kills Show Kill Counter
-settings.interface.streak Show Streak Counter
-settings.interface.score Show Score Counter
-settings.interface.spectators Show Spectator Counter
-settings.interface.speed Show Movement Speed
-settings.interface.speedOffX Speed X Offset
-settings.interface.speedOffY Speed Y Offset
-settings.interface.speedOpacity Speed Opacity
-settings.interface.speedScale Speed Scale
-settings.interface.speedColor Speed Color (Current)
-settings.interface.speedColorMax Speed Color (Max)
-settings.interface.medals Show Medals
-settings.interface.hideNames Nametag Display
-settings.interface.hideNames.team Team Only
-settings.interface.hideNames.enemy Enemy Only
-settings.interface.hideNames.all Everyone
-settings.interface.nametagStyle Nametag Style
-settings.interface.nametagOpac Nametag Opacity
-settings.interface.nametagStyle.health Health Only
-settings.interface.nametagStyle.name Name Only
-settings.interface.nametagStyle.nameLvl Name & Level Only
-settings.interface.nametagStyle.all Everything
-settings.interface.healthNum Nametag Health Number
-settings.interface.healthColT Nametag Health Color Team
-settings.interface.healthColE Nametag Health Color Enemy
-settings.interface.xpBarCol XP Bar Color
-settings.interface.xpBarOpac XP Bar Opacity
-settings.crosshair.header Crosshair
-settings.crosshair.type Type
-settings.crosshair.type.2 Custom
-settings.crosshair.type.3 Layered
-settings.crosshair.type.4 Image
-settings.crosshair.type.5 Precision
-settings.crosshair.style Style
-settings.crosshair.style.0 Cross
-settings.crosshair.style.1 Hollow Circle
-settings.crosshair.style.2 Solid Circle
-settings.crosshair.style.3 Hollow Square
-settings.crosshair.style.4 Solid Square
-settings.crosshair.image Image
-settings.crosshair.image.paste Crosshair Image
-settings.crosshair.always Always Show
-settings.crosshair.color Color
-settings.crosshair.shadow.color Shadow Color
-settings.crosshair.shadow.thickness Shadow Thickness
-settings.crosshair.size Size
-settings.crosshair.thickness Thickness
-settings.crosshair.gap Gap
-settings.crosshair.dot Dot
-settings.crosshair.opacity.use Use Custom Opacity
-settings.crosshair.opacity.custom Custom Opacity
-settings.hitmarker.header Hitmarker
-settings.hitmarker.color Color
-settings.hitmarker.kcolor Kill Color
-settings.hitmarker.thickness Thickness
-settings.hitmarker.opacity Opacity
-settings.hitmarker.leng Length
-settings.hitmarker.spacing Spacing
-settings.hitmarker.animD Anim Size
-settings.hitmarker.animS Anim Speed
-settings.hitmarker.hitm Show
-settings.hitmarker.hitmFad Fade Speed
-settings.hitmarker.custom Hitmarker Image
-settings.hitmarker.custom.paste Hitmarker Image URL
-settings.onKillS.style.0 Default
-settings.onKillS.style.1 Reduce Resolution
-settings.onKillS.style.2 Reduce FOV
-settings.onKillS.style.3 Increase FOV
-settings.serverb.header Server Browser
-settings.serverb.oldBrowser Legacy Browser
-settings.serverb.defaultRegionOnly Default Region Only
-settings.gameprivacy.header Gameplay Privacy
-settings.gameprivacy.streamer Streamer Mode
-settings.gameprivacy.anon Anonymous Mode
-settings.gameprivacy.hideGameTitle Hide Game Title
-settings.gameplay.header Gameplay
-settings.gameplay.gpSetts Gameplay Settings
-settings.gameplay.sensitivityX X Sensitivity
-settings.gameplay.sensitivityY Y Sensitivity
-settings.gameplay.aimsensX Aim X Sensitivity
-settings.gameplay.aimsensY Aim Y Sensitivity
-settings.gameplay.challenge Challenge Mode
-settings.gameplay.invert Invert Y-Axis
-settings.gameplay.onkillS On Kill
-settings.gameplay.scrollDir Scroll Direction
-settings.controller.header Controller
-settings.controller.sensitivityX X Sensitivity
-settings.controller.disableCons Disable Controllers
-settings.controller.sensitivityY Y Sensitivity
-settings.controller.aimsensX Aim X Sensitivity
-settings.controller.aimsensY Aim Y Sensitivity
-settings.controller.deadZoneL Dead Zone (Left)
-settings.controller.deadZoneR Dead Zone (Right)
-settings.controller.triggerThres Trigger Threshold
-settings.controller.vibration Vibration
-settings.controller.gradSpeed Gradual Speed
-settings.controller.invert Invert Y-Axis
-settings.mobile.header Mobile
-settings.mobile.sensitivityX X Sensitivity
-settings.mobile.sensitivityY Y Sensitivity
-settings.mobile.aimsensX Aim X Sensitivity
-settings.mobile.aimsensY Aim Y Sensitivity
-settings.mobile.vibration Vibration
-settings.mobile.gradSpeed Gradual Speed
-settings.mobile.invert Invert Y-Axis
-settings.audio.header Audio
-settings.audio.sound Master Volume
-settings.audio.ambient Ambient Volume
-settings.audio.voice Voice Volume
-settings.audio.weps Weapon Volume
-settings.audio.player Player Volume
-settings.audio.skin Cosmetics Volume
-settings.audio.ui UI Volume
-settings.audio.asset Asset Volume
-settings.audio.dialogue Action Volume
-settings.viewmodel.header View Model
-settings.viewmodel.vmSetts View Model Settings
-settings.viewmodel.fov Field of View
-settings.viewmodel.fps Weapon FOV
-settings.viewmodel.bobbing Weapon Bobbing
-settings.viewmodel.leaning Weapon Leaning
-settings.viewmodel.show.primary Show Primary
-settings.viewmodel.show.secondary Show Secondary
-settings.viewmodel.roundArms Rounded Arms
-settings.viewmodel.show.melee Show Melee
-settings.viewmodel.show.ads Hide Weapon on ADS
-settings.viewmodel.toggleAim Toggle Aim
-settings.viewmodel.show.hands Show Hands
-settings.viewmodel.leftHand Left Handed
-settings.viewmodel.aimAnim Weapon Aim Animation
-settings.viewmodel.rot Weapon Rotation
-settings.viewmodel.xOff Weapon X Offset
-settings.viewmodel.yOff Weapon Y Offset
-settings.viewmodel.zOff Weapon Z Offset
-settings.viewmodel.weapSwapY Weapon Swap Y
-settings.viewmodel.weapReloadY Weapon Reload Y
-settings.viewmodel.yOffADS Weapon ADS Y Offset
-settings.viewmodel.adsFovMlt ADS FOV Power
-settings.editing.header Editing
-settings.editing.health.high HUD Health High
-settings.editing.health.low HUD Health Low
-settings.editing.speedLines Speed Lines
-settings.editing.spdLinesCol Speed Lines Color
-settings.editing.score.color Popup Score Color
-settings.editing.score.show Show Popup Score
-settings.editing.score.scale Popup Score Scale
-settings.editing.score.shadow Popup Score Shadow
-settings.editing.scoreOffX Popup Score X Offset
-settings.editing.scoreOffY Popup Score Y Offset
-settings.editing.prog.color Progress Bar Color
-settings.editing.prog.opacity Progress Bar Opacity
-settings.editing.prog.scale Progress Bar Scale
-settings.editing.prog.shadow Progress Bar Shadow
-settings.editing.progOffX Progress Bar X Offset
-settings.editing.progOffY Progress Bar Y Offset
-settings.editing.progRot Progress Bar Rotation
-settings.editing.progm.color Charge Bar Color
-settings.editing.progm.opacity Charge Bar Opacity
-settings.editing.progm.scale Charge Bar Scale
-settings.editing.progm.shadow Charge Bar Shadow
-settings.editing.progmOffX Charge Bar X Offset
-settings.editing.progmOffY Charge Bar Y Offset
-settings.editing.progmRot Charge Bar Rotation
-settings.editing.saturation Saturation (In-game)
-settings.editing.menuSaturation Saturation (UI)
-settings.editing.hue Color Hue (In-game)
-settings.editing.menuHue Color Hue (UI)
-settings.editing.vignette Vignette
-settings.editing.feedLimit Killfeed Limit
-settings.editing.depth Depth Map
-settings.editing.green Green Screen
-settings.editing.trailcol Bullet Trail Color
-settings.editing.ropecol Grapple Rope Color
-settings.editing.tracercol Bullet Tracers
-settings.editing.tracer Bullet Tracers
-settings.editing.tracer.offset Tracer Offset
-settings.shaders.header Shader Inputs
-settings.mods.header Customization
-settings.mods.load Load Mods
-settings.mods.logo Allow Logo Changes
-settings.mods.auto Auto-Load Mod
-settings.mods.borders Scope Borders
-settings.mods.borderCol Scope Borders
-settings.mods.borderOpac Scope Borders Opacity
-settings.mods.scope Scope Image
-settings.mods.scope.paste Scope Image URL
-settings.mods.scope.opacity Scope Opacity
-settings.mods.scope.width Scope Image Width
-settings.mods.scope.height Scope Image Height
-settings.mods.dot Reticle Image
-settings.mods.dot.width Reticle Image Width
-settings.mods.dot.height Reticle Image Height
-settings.mods.dot.paste Reticle URL
-settings.mods.endmessage Match End Message
-settings.mods.profile Profile Image
-settings.mods.profile.paste Profile Image URL
-settings.mods.ammo Ammo Icon Image
-settings.mods.ammo.paste Ammo Icon Image URL
-settings.mods.kills Kills Icon Image
-settings.mods.kills.paste Kills Icon Image URL
-settings.mods.deaths Deaths Icon Image
-settings.mods.deaths.paste Deaths Icon Image URL
-settings.mods.streak Streak Counter Icon Image
-settings.mods.streak.paste Streak Counter Icon Image URL
-settings.mods.timer Timer Icon Image
-settings.mods.timer.paste Timer Icon Image URL
-settings.mods.usedamage Use Damage Overlay
-settings.mods.damage Damage Overlay Image
-settings.mods.damage.paste Damage Overlay Image URL
-settings.mods.overlay Game Overlay Image
-settings.mods.overlay.paste Game Overlay Image URL
-settings.social.region Region Stats
-windows.settings.header Game Settings
-windows.mail.header Krunker Mail
-windows.servers.header Servers
-windows.servers.none No Joinable Games Found...
-windows.servers.host + Host Game
-windows.servers.hide Hide Full
-windows.servers.priority Region Priority
-windows.servers.online {0} In Game
-windows.servers.social {0} on Social
-windows.loadout.header Change Loadout
-windows.loadout.class Class
-windows.loadout.primary Primary
-windows.loadout.primary.attach Attachment
-windows.loadout.primary.reticle Reticle
-windows.loadout.primary.scope Scope
-windows.loadout.secondary Secondary
-windows.loadout.secondary.skin Secondary Skin
-windows.loadout.melee Melee
-windows.loadout.hat Hat
-windows.loadout.back Body
-windows.loadout.waist Waist
-windows.loadout.shoe Shoes
-windows.loadout.face Face
-windows.loadout.spray Spray
-windows.loadout.color.skin Skin Color
-windows.loadout.color.chat Chat Name Color
-windows.loadout.color.hair Hair Color
-windows.loadout.dye Dye
-windows.loadout.pet Pet
-windows.loadout.stat Killcard Stat
-windows.loadout.flag Country Flag
-windows.mods.drop drop mod file here or click
-windows.mods.paste Paste Mod Url
-windows.mods.load Load Mod
-windows.mods.none No Mods found
-windows.mods.header Mod Manager
-windows.mods.guide Mod Guide
-windows.mods.list Mods List
-windows.mods.load.header Load Mods
-windows.mods.publish Publish Mod
-windows.mods.viewer Viewer
-windows.account.header Account
-windows.account.recover To recover an account contact <a>recovery@yendis.ch</a>
-windows.class.header Select Class
-windows.controls.header Change Controls
-windows.controls.forward Forward
-windows.controls.backward Backward
-windows.controls.left Left
-windows.controls.right Right
-windows.controls.reload Reload
-windows.controls.aim Aim
-windows.controls.shoot Shoot
-windows.controls.inspect Inspect
-windows.controls.spray Spray
-windows.controls.jump Jump
-windows.controls.crouch Crouch
-windows.controls.prim Primary Weapon
-windows.controls.swap Secondary Weapon
-windows.controls.melee Melee Weapon
-windows.controls.equip Equipment
-windows.controls.chat Chat
-windows.controls.voice Voice
-windows.controls.list Player List
-windows.controls.board Leaderboard
-windows.controls.interact Interact
-windows.controls.interactSec Secondary Interact
-windows.controls.confirm Confirm Interact
-windows.controls.drop Drop
-windows.controls.wepVis Toggle Weapon Visibility
-windows.controls.kickVoteY Vote Kick [Yes]
-windows.controls.kickVoteN Vote Kick [No]
-windows.controls.kpdVoteY KPD Vote [Yes]
-windows.controls.kpdVoteN KPD Vote [No]
-windows.controls.specFree Toggle Free Cam
-windows.controls.specObj Toggle Objective Cam
-windows.controls.specFirst Toggle First Person
-windows.controls.specNames Toggle Forced Names
-windows.controls.streak0 Streak 1
-windows.controls.streak1 Streak 2
-windows.controls.streak2 Streak 3
-windows.controls.streak3 Streak 4
-windows.controls.streak4 Streak 5
-windows.controls.premium0 Noclip
-windows.controls.premium1 Godmode
-windows.controls.premium2 Kill
-windows.controls.premium3 Smite
-windows.controls.dev0 Developer Bind 1
-windows.controls.dev1 Developer Bind 2
-windows.controls.dev2 Developer Bind 3
-windows.controls.dev3 Developer Bind 4
-windows.controls.reset Reset Position (Race & Parkour)
-windows.controls.pretend Hide Game
-windows.host.header Host Custom Game
-windows.host.maps Server Setup
-windows.host.cmaps Community Game
-windows.host.raw Raw Game Data
-windows.host.modes Select Modes
-windows.host.classes Select Classes
-windows.host.settings Server Settings
-windows.host.preset Host Presets
-windows.host.preset.load Loading Preset...
-windows.host.preset.name Preset name
-windows.host.start Start Game
-windows.host.rehost Start Game (Bring Players)
-windows.spray.header Select Spray
-windows.spray.default Free Spray
-windows.spray.spin Spray
-windows.maps.header Custom Games
-windows.maps.none No Games found!
-windows.maps.name Game Name
-windows.maps.editor Game Maker
-windows.maps.publish Publish Game
-windows.maps.community Dev Community
-windows.publish.map.header Publish or Update Game
-windows.publish.map.thumbnail No Thumbnail
-windows.publish.map.paste Paste Game Data
-windows.publish.map.update Publish/Update
-windows.publish.map.login to create and upload Games!
-windows.theatre.header Theatre Mode
-windows.theatre.record Enable Recording
-windows.theatre.key Record Key
-windows.clans.header Clans
-windows.clans.members Members ({0})
-windows.clans.requests Requests
-windows.clans.requests.none No Requests
-windows.clans.page [{0}] Clan Page
-windows.clans.create Create Clan
-windows.clans.name Clan Name
-windows.clans.view View Clans
-windows.clans.join Join Clan
-windows.clans.login to create and join a clan!
-windows.store.header Store
-windows.store.spin {0} Spin
-windows.store.agree By purchasing you agree to the {0}Terms & Conditions
-windows.store.purchase Purchase KR
-windows.store.voucher Redeem Voucher
-windows.store.voucherinfo Redeem Vouchers from certain Streams & Game Events
-windows.store.market Marketplace
-windows.store.market2 Krunker Market
-windows.store.premium Purchase Premium
-windows.store.premium2 Krunker Premium
-windows.store.buyP Choose a Display name & more with
-windows.store.buy Buy and Sell Items on the
-windows.store.wheels Prize Wheels
-windows.store.unlock Unlock new weapon skins and items
-windows.store.amount {0} KR in account
-windows.store.login to buy and unlock items from the store!
-windows.store.purchasing Purchasing...
-windows.store.unboxed {0}{1} unboxed
-windows.trade.header Trading
-windows.scope.header Select Scope
-windows.premium.header Premium
-windows.skin.header Select Skin
-windows.hat.header Select Hat
-windows.back.header Select Back
-windows.waist.header Select Waist
-windows.face.header Select Face
-windows.melee.header Select Melee
-windows.attach.header Select Attachment
-windows.reticle.header Select Reticle
-windows.reticle.unlocked Unlocked at lvl {0}
-windows.reticle.req Req lvl {0}
-windows.dye.header Select Dye
-windows.dye.default Default Dye
-windows.dye.spin Dye
-windows.changelog.header Changelog
-windows.mods.community.header Community Mods
-windows.mods.community.fav Your Favorites
-windows.mods.community.new New Mods
-windows.mods.community.hot Hot
-windows.mods.community.name Mod Name
-windows.mods.community.none No Mods found
-windows.publish.mod.header Publish Mod
-windows.publish.mod.thumbnail No Thumbnail
-windows.publish.mod.name Mod Name
-windows.publish.mod.paste Mod Url
-windows.publish.mod.update Publish/Update
-windows.publish.mod.login to create and upload mods!
-windows.secondary.header Select Secondary
-windows.secondary.unlocked Unlocked
-windows.secondary.customOnly Customs Only
-windows.secondary.premiumOnly Premium Only
-windows.secondary.req Req lvl {0}
-windows.advertise.header Advertise
-windows.support.header Support
-windows.players.header Player List
-windows.players.none No players currently...
-windows.join.header Join
-windows.join.code Enter Game URL/Code
-windows.client.header Client
-windows.client.windows Windows Installer
-windows.client.mac macOS Installer
-windows.client.linux Linux Installer
-windows.ranked.header Ranked
-windows.ranked.login to play in ranked games!
-windows.ranked.level You must be at least <span color="black">level {0}</span> to play in ranked games! Right now you are at <span color="black">level {1}</span>.
-windows.ranked.mode.r1v1 Solo
-windows.ranked.mode.r2v2 Duo
-windows.ranked.mode.r4v4 Quad
-windows.chall.header Challenges
-windows.chall.login to complete challenges!
-thumbnail.upload.limit Failed. {0}kb Thumbnail Limit
-image.upload.limit Failed. {0}kb Image Limit
-thumbnail.upload.error Thumbnail Error
-mod.extracting extracting {0}/{1}
-mod.disabled mods disabled
-mod.error mod error!
-mod.loading loading mod...
-mod.invalid invalid mod file!
-matchmaker.full FULL
-matchmaker.full2 Game is full.
-matchmaker.updating GAME UPDATING
-matchmaker.invalid Game not found.
-matchmaker.none Servers are at Max Capacity
-adblocker Disable your ad blocker to receive free Krunkies.
-ad-failed Ad Failed to Load. Try again.
-streamers.views {0} viewers
-streamers.none No active streams!
-error.extentions If you have any extensions, disable them
-error.seek Try seeking a new game by clicking
-custom.map.upload.limit Failed. 500k Character Game Data Limit
-custom.map.missing Select at least one Game or Map
-custom.mode.missing Select at least one Mode
-custom.class.missing Select at least one Class
-server.config.maxPlayers Players
-server.config.minPlayers Min Players
-server.config.lives Lives
-server.config.gameTime Minutes
-server.config.gravMlt Gravity
-server.config.tickRI High Tickrate
-server.config.maxPS 40 Player Server
-server.config.promServ Promote Server
-server.config.jumpMlt Jump Force
-server.config.airStrf Air Strafing
-server.config.deltaMlt Time Scale
-server.config.strafeSpd Strafe Speed
-server.config.fiRat Fire Rate
-server.config.reSpd Reload Speed
-server.config.slidTime Slide Time
-server.config.fixMov Fixed Movement
-server.config.slidSpd Slide Speed
-server.config.healthMlt Health Multiplier
-server.config.impulseMlt Weapon Impulse
-server.config.nameTeam1 Team 1 Name
-server.config.nameTeam2 Team 2 Name
-server.config.nameTeam3 Team 3 Name
-server.config.nameTeam4 Team 4 Name
-server.config.nameTeam5 Team 5 Name
-server.config.t1Dmg Team 1 Damage
-server.config.t2Dmg Team 2 Damage
-server.config.t3Dmg Team 3 Damage
-server.config.t4Dmg Team 4 Damage
-server.config.t5Dmg Team 5 Damage
-server.config.selTeam Select Team
-server.config.allowSpect Spectating
-server.config.killRewards Kill Rewards
-server.config.headshotOnly Headshots Only
-server.config.noSecondary Disable Secondaries
-server.config.noStreaks Disable Streaks
-server.config.canSlide Sliding
-server.config.wallJP Wall Jumping Power
-server.config.autoJump Auto Jump
-server.config.bDrop Bullet Drop
-server.config.thirdPerson 3rd Person
-server.config.requireCaptcha Require Captcha
-server.config.nameTags Hide Nametags
-server.config.kCams Kill Cams
-server.config.noReload No Reload
-server.config.private Private
-server.config.krRewards KR Rewards
-server.config.forceDefault Force Default Settings
-server.config.warmupTime Warmup Time
-server.config.gamRounds Rounds
-server.config.objtvTime Objective Time
-server.config.forceSpawn Auto Respawn Time
-server.config.intermTmr Intermission (s)
-server.config.scoreLimit Score Limit
-server.config.keepTScore Keep Team Score
-server.config.forceC Force Mode Classes
-server.config.logTim Log Time (Race, Parkour)
-server.config.hitBoxPad Hitbox Padding
-server.config.hpRegen Health Regen
-server.config.disableB Disable Borders
-server.config.throwMel Throwable Melees
-server.config.noCosm Disable Cosmetics
-server.config.tstCmp Test Mode
-server.config.limitClasses Limit Classes
-server.config.tmSize Team Size
-server.config.fallDmg Fall Damage
-server.config.fallDmgThr Fall Damage Thresh
-server.config.noDraws No Draws
-server.config.bstOfR Best of
-social.login Login/Register
-social.login.failed Login Failed
-social.login.buy Login to Buy
-social.login.sell Login to Sell
-social.login.gift Login to Gift
-social.login.proccessing Logging in...
-social.since Since
-social.user.maps User Games
-social.user.mods User Mods
-social.maps.none No Games found...
-social.mods.none No Mods found...
-social.market.price.low Lowest Price
-social.market.price.list List Price in
-social.market.searching Searching
-social.market.listed listed {0} ago
-social.market.list List Item
-social.market.unlist Unlist
-social.market.unlisting Unlisting Item...
-social.market.posting Posting Item...
-social.market.req lvl {0} required
-social.market.cant Can't Afford
-social.market.purchase Purchase
-social.market.fee No List Fee
-social.market.failed Failed. Try Again
-social.market.head Head Item
-social.market.back Back Item
-social.market.waist Waist Item
-social.market.face Face Item
-social.market.shoe Shoe Item
-social.market.pet Pet Item
-social.market.melee Melee Item
-social.market.spray Spray Item
-social.market.dye Dye Item
-social.market.none No Items Found
-social.market.login You must be logged in.
-social.market.grace ready in {0}
-social.market.sort Filter/Sort
-social.market.filter Search
-social.market.sort2 Sort
-social.market.price.high Highest Price
-social.trading.submitting Submitting Offer...
-social.market.gift.amount Gift Amount in
-social.market.fee.gift No Fee
-social.market.gift Gift KR
-social.market.gift.msg Leave a message
-respawn.auto Auto Respawning in {0}
-custom.host.ranked Can't host match while in ranked.
-funds.insufficient Insufficient Funds
-funds.out It appears you have run out of Krunkies.
-custom.passcode.long Password too long
-custom.passcode.input Enter Server Password to join
-custom.tryagain Please try again.
-purchase.kr.success Added {0} KR to your account
-limited.purchase.ask Are you sure you want to purchase [{0}] for {1} KR?
-limited.purchase.success Added {0} to your inventory
-pretend.exit press [{0}] again to exit
-settings.loaded Settings Loaded
-settings.loaded.none No settings found
-account.login.required Must be logged in
-account.banned.hack This account has been banned for Hacking.
-account.banned.appeal If you want to appeal your ban, contact:
-account.delete You may request to delete your account, if the request is not cancelled within 14 days the account and all associated data will be permanently removed.
-account.delete.request Are you sure you want to request an account deletion?
-account.delete.cancel Are you sure you want to cancel account deletion?
-spin.free.available FREE KR AVAILABLE!
-spin.free.claim This spin is available to claim once per Hour after completing a match.
-spin.free.disable These Popups can be disabled in General Settings
-mod.reset.0 Will take effect after respawning.
-mod.reset.1 Map Objects dont get reset
-windows.profile.picture Change Picture
-stats.assists Assists
-stats.nukes Nukes
-stats.melee Melee
-stats.fistkills Beatdowns
-stats.thrownkills Bullseyes
-stats.headshots Headshots
-stats.wallbangs Wallbangs
-stats.sprays Sprays Placed
-windows.host.default.settings Enabling Default Settings allows for storing Player Progress and Highscores
-windows.host.default.commands *Host Commands are Disabled in this mode: /noclip /god /smite etc
-windows.host.rewards Enabling KR Rewards forces the Server to use Default Settings & allows players to earn KR from the map funds:
-windows.store.wheels.sub Try your luck and spin for a chance to win some new skins!
-windows.store.currency * Prices in USD can be converted to your local currency at an exchange rate defined by the payment provider or bank
-windows.store.creator Consider Supporting your favorite Content Creator by using a Creator Code
-windows.chall.customs Challenges can't be completed in Custom Matches
-twitch.link Are you sure you want to link a twitch account?
-twitch.unlink Are you sure you want to unlink your twitch account?
-windows.clan.leave Are you sure you want to leave the clan?
-windows.clan.delete Are you sure you want to delete the clan?
-windows.clan.kick Are you sure you want kick {0} from the clan?
-windows.store.premium.purchase Are you sure you want to purchase {0} days of Premium?
-windows.store.premium.gift Are you sure you want to Gift '{0}' {1} days of Premium?
-windows.playerlist.ban Are you sure you want ban {0} from this game?
-windows.playerlist.flag Are you sure you want to Flag {0}?
-windows.playerlist.unflag Are you sure you want to Unflag {0}?
-windows.playerlist.punish Are you sure you want to take action on {0}?
-item.view.open Open Model Viewer
-item.view.more More Information
-item.sell.cant Item cant be sold.
-item.sell.quick Are you sure you want to Quick Sell {0}?
-social.profile.stats Overall Stats
-social.profile.class Class Stats
-social.profile.sales Sales
-social.profile.sales.market Market Sales
-social.profile.skins Skins [{0}]
-social.profile.skins.none No published Skins from this user
-social.profile.games Games [{0}]
-social.profile.games.none No published Games from this user
-social.profile.assets Assets [{0}]
-social.profile.assets.none No published Assets from this user
-social.profile.mods Mods [{0}]
-social.profile.mods.none No published Mods from this user
-social.search Search Results
-social.market.stats.rare Rarest Items
-social.market.stats.circulation In Circulation
-social.market.stats.units units Worldwide
-social.trades.in Incoming
-social.trades.in.head Incoming Offers ({0})
-social.trades.out Outgoing
-social.trades.out.head Outgoing Offers ({0})
-social.trades.history History
-social.trades.history.head Trade History ({0})
-social.trades.decline Decline All
-social.trades.message ENABLE TRADE MESSAGES IN SETTINGS
-social.trades.warning You get no items from this trade!
-social.trades.accept Are you sure you want to accept this offer?
-stats.airdrops KR-Packages
-settings.quality.flapAnim Sniper Flap Animation
+settings.popup.header 팝업
+settings.popup.freeKRPop 무료 KR 팝업 보이기
+settings.experimental.header 실험적 설정
+settings.experimental.aimFreezeFix 에임 멈춤 현상 해결
+settings.experimental.mouseFlickFix 마우스 순간이동 문제 해결
+settings.experimental.shaderRendering 인스턴스 렌더링
+settings.experimental.staticRendering 정적 렌더링
+settings.client.header 클라이언트
+settings.client.unlimitedFrames FPS 무제한
+settings.client.gameCap 게임 캡처
+settings.client.experimental 시험 기능
+settings.client.discordRPC Discord 연동
+settings.client.resourceSwapper 리소스 교체 활성화
+settings.client.clearCache 캐시 삭제하기
+settings.client.resetSettings 클라이언트 설정 초기화
+settings.client.acceleratedCanvas 캔버스 가속
+settings.client.angleBackend ANGLE 그래픽 백엔드
+settings.client.colorProfile 프로필 색 설정
+settings.dev.header 개발자
+settings.dev.forceUpdate 스킨 강제 업데이트
+settings.dev.forceRegen 항상 플레이어 재생성
+settings.dev.extraBan 추가 차단 정보
+settings.chat.header 채팅
+settings.chat.chat 채팅창 표시
+settings.chat.chat.all 항상
+settings.chat.chat.focus 입력 중에만
+settings.chat.messages 플레이어 메시지 표시
+settings.chat.unboxings 스핀 결과 표시
+settings.chat.chatOp 채팅 불투명도
+settings.chat.chatBGOp 채팅 배경 불투명도
+settings.chat.chatHeight 채팅 높이
+settings.chat.chatTimer 채팅 사라지기 타이머
+settings.chat.chatTextOutline 채팅 글자 테두리
+settings.chat.chatFilter 욕설 필터링
+settings.quality.header 성능
+settings.quality.updRate FPS 제한
+settings.quality.rendDst 렌더 거리
+settings.quality.res 해상도
+settings.quality.part 입자
+settings.quality.mapDet 맵 디테일
+settings.quality.noTex 텍스처 끄기
+settings.quality.partdist 입자 렌더링 거리
+settings.quality.renderdist 렌더 거리
+settings.quality.reflection 반사 품질
+settings.quality.antiAlias 계단 현상 방지
+settings.quality.shadows 그림자
+settings.quality.softShad 부드러운 그림자
+settings.quality.highResShad 고해상도 그림자
+settings.quality.shadowsDynamic 동적 그림자
+settings.quality.trails 총알 예광
+settings.quality.yourTrails 내 예광탄 색상
+settings.quality.mflash 총구 섬광
+settings.quality.flap 스나이퍼 스코프 덮개
+settings.quality.lowSpec 저사양 모드
+settings.quality.ambient 환경 광원 셰이딩
+settings.quality.ambientOld 구 셰이딩 사용 (가능한 경우)
+settings.quality.textureAnim 텍스처 애니메이션
+settings.quality.objectAnim 물체 애니메이션
+settings.quality.screenShake 화면 흔들림
+settings.quality.weaponShine 무기 광택
+settings.quality.rendGamma 감마
+settings.quality.lighting 조명
+settings.quality.showExplo 폭발 효과
+settings.quality.aspectRatio 화면 비율
+settings.post.header 포스트 프로세싱
+settings.post.post 포스트 프로세싱
+settings.post.bloom 블룸
+settings.post.bloomThreshold 블룸 임계점
+settings.post.bloomStrength 블룸 강도
+settings.post.bloomRadius 블룸 반경
+settings.post.ssao 화면 공간 반사
+settings.post.ssaoRadius 화면 공간 반사 반경
+settings.interface.hitInd 피해 방향 표시
+settings.interface.hitColor 피해 방향 색상
+settings.interface.dmg 피해량 표시
+settings.interface.dmgCol 피해량 색상
+settings.interface.critCol 치명타 색상
+settings.interface.header 인터페이스
+settings.interface.scale 인터페이스 크기
+settings.interface.ui 인터페이스 표시
+settings.interface.scoreboard 구 점수판 사용
+settings.interface.oldBrowser 구 서버 탐색기 사용
+settings.interface.rarityanim 희귀도 애니메이션 끄기
+settings.interface.showPfp 프로필 사진 표시
+settings.interface.showTradeMsg 트레이드 메시지 표시
+settings.interface.hideNonTrade 트레이드 불가 스킨 숨기기
+settings.interface.hp 동적 HP 막대
+settings.interface.dmgScale 피해량 숫자 크기
+settings.interface.killf 킬로그 표시
+settings.interface.ping 지연 시간 표시
+settings.interface.net-stats 네트워크 통계 표시
+settings.interface.fps FPS 표시
+settings.interface.deaths 사망 수 표시
+settings.interface.kd KDR 표시
+settings.interface.kills 처치 수 표시
+settings.interface.streak 연속 처치 수 표시
+settings.interface.score 점수 표시
+settings.interface.spectators 관전자 수 표시
+settings.interface.speed 이동 속도 표시
+settings.interface.speedOffX 이동 속도 좌우 위치
+settings.interface.speedOffY 이동 속도 상하 위치
+settings.interface.speedOpacity 이동 속도 불투명도
+settings.interface.speedScale 이동 속도 크기
+settings.interface.speedColor  현재 속도 색상
+settings.interface.speedColorMax 최고 속도 색상
+settings.interface.medals 메달 표시
+settings.interface.hideNames 이름표 표시
+settings.interface.hideNames.team 팀원만 표시
+settings.interface.hideNames.enemy 상대만 표시
+settings.interface.hideNames.all 모두 표시
+settings.interface.nametagStyle 이름표 스타일
+settings.interface.nametagOpac 이름표 불투명도
+settings.interface.nametagStyle.health HP만 표시
+settings.interface.nametagStyle.name 이름만 표시
+settings.interface.nametagStyle.nameLvl 이름과 레벨만 표시
+settings.interface.nametagStyle.all 모두 표시
+settings.interface.healthNum 이름표 HP 숫자 표시
+settings.interface.healthColT 팀원 이름표 HP 색상
+settings.interface.healthColE 상대 이름표 HP 색상
+settings.interface.xpBarCol XP 막대 색상
+settings.interface.xpBarOpac XP 막대 불투명도
+settings.crosshair.header 조준선
+settings.crosshair.type 종류
+settings.crosshair.type.2 사용자 지정
+settings.crosshair.type.3 레이어
+settings.crosshair.type.4 이미지
+settings.crosshair.type.5 정밀
+settings.crosshair.style 스타일
+settings.crosshair.style.0 십자선
+settings.crosshair.style.1 빈 원
+settings.crosshair.style.2 꽉 찬 원
+settings.crosshair.style.3 빈 정사각형
+settings.crosshair.style.4 꽉 찬 정사각형
+settings.crosshair.image 이미지
+settings.crosshair.image.paste 조준선 이미지
+settings.crosshair.always 항상 표시
+settings.crosshair.color 색상
+settings.crosshair.shadow.color 그림자 색상
+settings.crosshair.shadow.thickness 그림자 두께
+settings.crosshair.size 조준선 크기
+settings.crosshair.thickness 두께
+settings.crosshair.gap 틈
+settings.crosshair.dot 점
+settings.crosshair.opacity.use 사용자 지정 불투명도 사용
+settings.crosshair.opacity.custom 불투명도
+settings.hitmarker.header 히트마커
+settings.hitmarker.color 색상
+settings.hitmarker.kcolor 처치 색상
+settings.hitmarker.thickness 두께
+settings.hitmarker.opacity 불투명도
+settings.hitmarker.leng 길이
+settings.hitmarker.spacing 간격
+settings.hitmarker.animD 애니메이션 크기
+settings.hitmarker.animS 애니메이션 속도
+settings.hitmarker.hitm 표시
+settings.hitmarker.hitmFad 사라짐 속도
+settings.hitmarker.custom 히트마커 이미지
+settings.hitmarker.custom.paste 히트마커 URL
+settings.onKillS.style.0 기본
+settings.onKillS.style.1 해상도 축소
+settings.onKillS.style.2 FOV 축소
+settings.onKillS.style.3 FOV 확대
+settings.serverb.header 서버 탐색기
+settings.serverb.oldBrowser 구 서버 탐색기 사용
+settings.serverb.defaultRegionOnly 기본 지역만 보이기
+settings.gameprivacy.header 게임플레이 프라이버시
+settings.gameprivacy.streamer 스트리머 모드
+settings.gameprivacy.anon 익명 모드
+settings.gameprivacy.hideGameTitle 게임 제목 숨기기
+settings.gameplay.header 게임플레이
+settings.gameplay.gpSetts 게임플레이 설정
+settings.gameplay.sensitivityX 좌우 감도
+settings.gameplay.sensitivityY 상하 감도
+settings.gameplay.aimsensX 조준 좌우 감도
+settings.gameplay.aimsensY 조준 상하 감도
+settings.gameplay.challenge 챌린지 모드
+settings.gameplay.invert 상하 반전
+settings.gameplay.onkillS 처치 시
+settings.gameplay.scrollDir 스크롤 방향
+settings.controller.header 게임패드
+settings.controller.sensitivityX 좌우 감도
+settings.controller.disableCons 게임패드 비활성화
+settings.controller.sensitivityY 상하 감도
+settings.controller.aimsensX 조준 좌우 감도
+settings.controller.aimsensY 조준 상하 감도
+settings.controller.deadZoneL 입력 무시 범위 (좌)
+settings.controller.deadZoneR 입력 무시 범위 (우)
+settings.controller.triggerThres 트리거 역치값
+settings.controller.vibration 진동
+settings.controller.gradSpeed 점진적 속도 증가
+settings.controller.invert 상하 반전
+settings.mobile.header 모바일
+settings.mobile.sensitivityX 좌우 감도
+settings.mobile.sensitivityY 상하 감도
+settings.mobile.aimsensX 조준 좌우 감도
+settings.mobile.aimsensY 조준 상하 감도
+settings.mobile.vibration 진동
+settings.mobile.gradSpeed 점진적 속도 증가
+settings.mobile.invert 상하 반전
+settings.audio.header 오디오
+settings.audio.sound 마스터 음량
+settings.audio.ambient 환경 음량
+settings.audio.voice 음성 음량
+settings.audio.weps 무기 음량
+settings.audio.player 플레이어 음량
+settings.audio.skin 외형 아이템 음량
+settings.audio.ui 인터페이스 음량
+settings.audio.asset 애셋 음량
+settings.audio.dialogue 동작 음량
+settings.viewmodel.header 무기 모델
+settings.viewmodel.vmSetts 모델 보기 설정
+settings.viewmodel.fov 시야각 (FOV)
+settings.viewmodel.fps 무기 시야각
+settings.viewmodel.bobbing 무기 흔들림
+settings.viewmodel.leaning 무기 기울기
+settings.viewmodel.show.primary 주무기 보이기
+settings.viewmodel.show.secondary 보조무기 보이기
+settings.viewmodel.roundArms 둥근 팔
+settings.viewmodel.show.melee 근접무기 보이기
+settings.viewmodel.show.ads 조준 시 무기 숨기기
+settings.viewmodel.toggleAim 조준 전환
+settings.viewmodel.show.hands 손 보이기
+settings.viewmodel.leftHand 왼손잡이 모드
+settings.viewmodel.aimAnim 무기 조준 애니메이션
+settings.viewmodel.rot 무기 회전
+settings.viewmodel.xOff 무기 좌우 위치
+settings.viewmodel.yOff 무기 상하 위치
+settings.viewmodel.zOff 무기 전후 위치
+settings.viewmodel.weapSwapY 무기 전환 상하 위치
+settings.viewmodel.weapReloadY 무기 재장전 상하 위치
+settings.viewmodel.yOffADS 무기 조준 상하 위치
+settings.viewmodel.adsFovMlt 무기 조준 배율
+settings.editing.header 인터페이스 효과
+settings.editing.health.high HUD HP 정상 색상
+settings.editing.health.low HUD HP 낮음 색상
+settings.editing.speedLines 속도 효과선
+settings.editing.spdLinesCol 속도 효과선 색상
+settings.editing.score.color 점수 팝업 색상
+settings.editing.score.show 점수 팝업 보이기
+settings.editing.score.scale 점수 팝업 크기
+settings.editing.score.shadow 점수 팝업 그림자
+settings.editing.scoreOffX 점수 팝업 좌우 위치
+settings.editing.scoreOffY 점수 팝업 상하 위치
+settings.editing.prog.color 진행 막대 색상
+settings.editing.prog.opacity 진행 막대 불투명도
+settings.editing.prog.scale 진행 막대 크기
+settings.editing.prog.shadow 진행 막대 그림자
+settings.editing.progOffX 진행 막대 좌우 위치
+settings.editing.progOffY 진행 막대 상하 위치
+settings.editing.progRot 진행 막대 회전
+settings.editing.progm.color 충전 막대 색상
+settings.editing.progm.opacity 충전 막대 불투명도
+settings.editing.progm.scale 충전 막대 크기
+settings.editing.progm.shadow 충전 막대 그림자
+settings.editing.progmOffX 충전 막대 좌우 위치
+settings.editing.progmOffY 충전 막대 상하 위치
+settings.editing.progmRot 충전 막대 회전
+settings.editing.saturation 그래픽 채도
+settings.editing.menuSaturation 인터페이스 채도
+settings.editing.hue 그래픽 색상
+settings.editing.menuHue 인터페이스 색상
+settings.editing.vignette 화면 테두리 어둡게 하기
+settings.editing.feedLimit 킬로그 제한
+settings.editing.depth 깊이 지도
+settings.editing.green 크로마 키
+settings.editing.trailcol 총알 흔적 색상
+settings.editing.ropecol 갈고리 줄 색상
+settings.editing.tracercol 예광탄 색상
+settings.editing.tracer 예광탄
+settings.editing.tracer.offset 예광탄 시작점 위치
+settings.shaders.header 셰이더 입력
+settings.mods.header 사용자 설정
+settings.mods.load Mod 사용
+settings.mods.logo 로고 변경 허용
+settings.mods.auto Mod 자동 적용
+settings.mods.borders 스나이퍼 스코프 경계
+settings.mods.borderCol 스코프 테두리
+settings.mods.borderOpac 스코프 테두리 불투명도
+settings.mods.scope 스코프 이미지
+settings.mods.scope.paste 스코프 이미지 URL
+settings.mods.scope.opacity 스코프 불투명도
+settings.mods.scope.width 스코프 이미지 너비
+settings.mods.scope.height 스코프 이미지 높이
+settings.mods.dot 십자선 이미지
+settings.mods.dot.width 십자선 이미지 너비
+settings.mods.dot.height 십자선 이미지 높이
+settings.mods.dot.paste 십자선 이미지 URL
+settings.mods.endmessage 매치 종료 메시지
+settings.mods.profile 프로필 사진
+settings.mods.profile.paste 프로필 사진 URL
+settings.mods.ammo 탄약 아이콘
+settings.mods.ammo.paste 탄약 아이콘 URL
+settings.mods.kills 처치 수 아이콘
+settings.mods.kills.paste 처치 수 아이콘 URL
+settings.mods.deaths 사망 수 아이콘
+settings.mods.deaths.paste 사망 수 아이콘 URL
+settings.mods.streak 연속 처치 수 아이콘
+settings.mods.streak.paste 연속 처치 수 아이콘
+settings.mods.timer 타이머 아이콘
+settings.mods.timer.paste 타이머 아이콘 URL
+settings.mods.usedamage 피해량 오버레이 사용
+settings.mods.damage 피해량 오버레이 이미지
+settings.mods.damage.paste 피해량 오버레이 이미지 URL
+settings.mods.overlay 게임 오버레이 이미지
+settings.mods.overlay.paste 게임 오버레이 이미지 URL
+settings.social.region 지역 스탯
+windows.settings.header 게임 설정
+windows.mail.header Krunker 메일
+windows.servers.header 서버
+windows.servers.none 참가할 수 있는 게임이 없습니다.
+windows.servers.host + 게임 만들기
+windows.servers.hide 가득 찬 게임 숨기기
+windows.servers.priority 지역 우선순위
+windows.servers.online 게임 중: {0}명
+windows.servers.social 소셜 페이지: {0}명
+windows.loadout.header 무기 및 스킨 바꾸기
+windows.loadout.class 클래스
+windows.loadout.primary 주무기
+windows.loadout.primary.attach 장착품
+windows.loadout.primary.reticle 조준 십자선
+windows.loadout.primary.scope 스코프
+windows.loadout.secondary 보조무기
+windows.loadout.secondary.skin 보조무기 스킨
+windows.loadout.melee 근접무기
+windows.loadout.hat 모자
+windows.loadout.back 몸통
+windows.loadout.waist 허리
+windows.loadout.shoe 신발
+windows.loadout.face 얼굴
+windows.loadout.spray 스프레이
+windows.loadout.color.skin 피부 색상
+windows.loadout.color.chat 채팅창 이름 색상
+windows.loadout.color.hair 머리카락 색상
+windows.loadout.dye 염료
+windows.loadout.pet 펫
+windows.loadout.stat 상대 처치 시 보일 스탯
+windows.loadout.flag 국기
+windows.mods.drop Mod 파일을 여기에 드래그 또는 클릭
+windows.mods.paste Mod URL 붙여넣기
+windows.mods.load Mod 적용
+windows.mods.none 찾은 Mod가 없습니다
+windows.mods.header Mod 관리
+windows.mods.guide Mod 가이드
+windows.mods.list Mod 목록
+windows.mods.load.header Mod 적용
+windows.mods.publish Mod 업로드
+windows.mods.viewer 뷰어
+windows.account.header 계정
+windows.account.recover 계정 복구는 <a>recovery@yendis.ch</a>로 이메일을 보내십시오
+windows.class.header 클래스 선택
+windows.controls.header 조작키 변경
+windows.controls.forward 앞
+windows.controls.backward 뒤
+windows.controls.left 좌
+windows.controls.right 우
+windows.controls.reload 재장전
+windows.controls.aim 조준
+windows.controls.shoot 발사
+windows.controls.inspect 무기 자세히 보기
+windows.controls.spray 스프레이
+windows.controls.jump 점프
+windows.controls.crouch 앉기
+windows.controls.prim 주무기
+windows.controls.swap 보조무기
+windows.controls.melee 근접무기
+windows.controls.equip 장비
+windows.controls.chat 채팅
+windows.controls.voice 음성 채팅
+windows.controls.list 플레이어 목록
+windows.controls.board 리더보드
+windows.controls.interact 주 상호작용
+windows.controls.interactSec 부 상호작용
+windows.controls.confirm 상호작용 확인
+windows.controls.drop 무기 떨어뜨리기
+windows.controls.wepVis 무기 보이기 전환
+windows.controls.kickVoteY 추방 투표 [찬성]
+windows.controls.kickVoteN 추방 투표 [반대]
+windows.controls.kpdVoteY KPD 투표 [찬성]
+windows.controls.kpdVoteN KPD 투표 [반대]
+windows.controls.specFree 자유 시점 전환
+windows.controls.specObj 거점 시점 전환
+windows.controls.specFirst 1인칭 시점 전환
+windows.controls.specNames 이름표 표시 전환
+windows.controls.streak0 연속 처치 1
+windows.controls.streak1 연속 처치 2
+windows.controls.streak2 연속 처치 3
+windows.controls.streak3 연속 처치 4
+windows.controls.streak4 연속 처치 5
+windows.controls.premium0 벽 통과
+windows.controls.premium1 무적 모드
+windows.controls.premium2 자살
+windows.controls.premium3 즉사 모드
+windows.controls.dev0 개발자 단축키 1
+windows.controls.dev1 개발자 단축키 2
+windows.controls.dev2 개발자 단축키 3
+windows.controls.dev3 개발자 단축키 4
+windows.controls.reset 위치 초기화 (Race, Parkour 모드 전용)
+windows.controls.pretend 게임 숨기기
+windows.host.header 사용자 지정 게임 만들기
+windows.host.maps 서버 설정
+windows.host.cmaps 커뮤니티 게임
+windows.host.raw 텍스트 게임 데이터
+windows.host.modes 게임 모드 선택
+windows.host.classes 클래스 선택
+windows.host.settings 서버 설정
+windows.host.preset 호스트 프리셋
+windows.host.preset.load 프리셋 적용 중...
+windows.host.preset.name 프리셋 이름
+windows.host.start 게임 시작하기
+windows.host.rehost 게임 시작하기 (플레이어 데리고 오기)
+windows.spray.header 스프레이 선택
+windows.spray.default 기본 스프레이
+windows.spray.spin 스프레이
+windows.maps.header 사용자 지정 게임
+windows.maps.none 찾은 게임이 없습니다!
+windows.maps.name 게임 이름
+windows.maps.editor 게임 편집기
+windows.maps.publish 게임 올리기
+windows.maps.community 개발자 커뮤니티
+windows.publish.map.header 게임 업로드 또는 업데이트
+windows.publish.map.thumbnail 섬네일 없음
+windows.publish.map.paste 게임 데이터 붙여넣기
+windows.publish.map.update 업로드/업데이트
+windows.publish.map.login 하고 게임을 만들고 업데이트하세요!
+windows.theatre.header 영화관 모드
+windows.theatre.record 녹화 활성화
+windows.theatre.key 녹화 단축키
+windows.clans.header 클랜
+windows.clans.members 멤버 {0}명
+windows.clans.requests 가입 요청
+windows.clans.requests.none 요청 없음
+windows.clans.page [{0}] 클랜 페이지
+windows.clans.create 클랜 만들기
+windows.clans.name 클랜 이름
+windows.clans.view 클랜 보기
+windows.clans.join 클랜 가입
+windows.clans.login 하고 클랜을 만들고 가입하세요!
+windows.store.header 상점
+windows.store.spin {0} 스핀
+windows.store.agree KR을 구매하면 {0}이용약관에 동의하는 것으로 간주합니다
+windows.store.purchase KR 구매
+windows.store.voucher KR 바우처 코드 입력
+windows.store.voucherinfo 특정 스트리머와 이벤트를 통해서 KR 바우처 코드를 얻으세요!
+windows.store.market 마켓
+windows.store.market2 Krunker 마켓
+windows.store.premium 프리미엄 구독
+windows.store.premium2 Krunker 프리미엄
+windows.store.buyP Krunker 프리미엄으로 표시 이름을 바꾸고 더 많은 혜택을 누리세요!
+windows.store.buy 아이템을 사고팔 때는
+windows.store.wheels 경품 뽑기
+windows.store.unlock 새 무기 스킨과 아이템을 얻으세요!
+windows.store.amount {0} KR이 계정에 있습니다
+windows.store.login 로그인해서 마켓에서 아이템을 사고파세요!
+windows.store.purchasing 구매 중...
+windows.store.unboxed {0}님이 {1} 아이템을 뽑았습니다
+windows.trade.header 트레이드 중
+windows.scope.header 스코프 선택
+windows.premium.header 프리미엄
+windows.skin.header 스킨 선택
+windows.hat.header 모자 선택
+windows.back.header 몸통 선택
+windows.waist.header 허리 선택
+windows.face.header 얼굴 선택
+windows.melee.header 근접무기 선택
+windows.attach.header 장착품 선택
+windows.reticle.header 조준 십자선 선택
+windows.reticle.unlocked {0}레벨 필요
+windows.reticle.req {0}레벨 필요
+windows.dye.header 염료 선택
+windows.dye.default 기본 염료
+windows.dye.spin 염료
+windows.changelog.header 영어 패치 노트
+windows.mods.community.header 커뮤니티 Mod
+windows.mods.community.fav 즐겨찾기
+windows.mods.community.new 새 Mod
+windows.mods.community.hot 인기 Mod
+windows.mods.community.name Mod 이름
+windows.mods.community.none Mod 없음
+windows.publish.mod.header Mod 업로드
+windows.publish.mod.thumbnail 섬네일 없음
+windows.publish.mod.name Mod 이름
+windows.publish.mod.paste Mod URL
+windows.publish.mod.update 업로드
+windows.publish.mod.login 로그인해서 Mod를 만들고 업로드하세요!
+windows.secondary.header 보조무기 선택
+windows.secondary.unlocked 잠금 해제됨
+windows.secondary.customOnly 사용자 지정 게임 전용
+windows.secondary.premiumOnly 프리미엄 전용
+windows.secondary.req {0}레벨 필요
+windows.advertise.header 광고하기
+windows.support.header 고객지원
+windows.players.header 플레이어 목록
+windows.players.none 현재 플레이어가 없습니다...
+windows.join.header 참가
+windows.join.code 게임 URL이나 코드를 입력하세요
+windows.client.header 클라이언트
+windows.client.windows Windows
+windows.client.mac macOS
+windows.client.linux Linux
+windows.ranked.header 랭크
+windows.ranked.login 로그인해서 랭크 게임에 참가하세요!
+windows.ranked.level 랭크 게임을 하려면 최소<span color="black">{0}레벨</span>이어야 합니다! 지금 당신은 <span color="black">{1}레벨</span>입니다.
+windows.ranked.mode.r1v1 1대1
+windows.ranked.mode.r2v2 2대2
+windows.ranked.mode.r4v4 4대4
+windows.chall.header 챌린지
+windows.chall.login 로그인해서 챌린지에 도전하세요!
+thumbnail.upload.limit 섬네일 업로드 실패. 최대 {0}KB까지 가능합니다.
+image.upload.limit 이미지 업로드 실패. 최대 {0}KB까지 가능합니다.
+thumbnail.upload.error 섬네일 오류
+mod.extracting Mod 추출 중... {0}/{1}
+mod.disabled Mod가 비활성화되어 있습니다
+mod.error Mod 오류!
+mod.loading Mod 적용 중...
+mod.invalid 유효하지 않은 Mod 파일입니다!
+matchmaker.full 가득 찼습니다
+matchmaker.full2 게임이 가득 찼습니다.
+matchmaker.updating 게임 업데이트 중
+matchmaker.invalid 게임을 찾을 수 없습니다.
+matchmaker.none 서버 용량이 가득 찼습니다.
+adblocker 무료 KR을 받으려면 광고 차단기를 끄세요.
+ad-failed 광고를 불러오지 못하였습니다. 나중에 다시 시도하세요.
+streamers.views 시청자 {0}명
+streamers.none 생방송이 없습니다!
+error.extentions 확장 프로그램을 사용하고 있다면 비활성화 해주십시오.
+error.seek 다른 게임을 찾아보려면 here를 클릭하세요.
+custom.map.upload.limit 실패했습니다. 맵 데이터는 500KB 이내여야 합니다.
+custom.map.missing 최소 하나의 맵을 선택하세요.
+custom.mode.missing 최소 하나의 게임 모드를 선택하세요.
+custom.class.missing 최소 하나의 클래스를 선택하세요.
+server.config.maxPlayers 최대 플레이어 수
+server.config.minPlayers 최소 플레이어 수
+server.config.lives 목숨
+server.config.gameTime 진행 시간
+server.config.gravMlt 중력
+server.config.tickRI 높은 틱레이트
+server.config.maxPS 40명 서버
+server.config.promServ 서버 노출시키기
+server.config.jumpMlt 점프 강도
+server.config.airStrf 공중 좌우 이동
+server.config.deltaMlt 시간 스케일
+server.config.strafeSpd 좌우 이동 속도
+server.config.fiRat 연사 속도
+server.config.reSpd 재장전 시간
+server.config.slidTime 슬라이딩 시간
+server.config.fixMov 움직임 수정
+server.config.slidSpd 슬라이딩 속도
+server.config.healthMlt HP 배수
+server.config.impulseMlt 무기 반동 배수
+server.config.nameTeam1 1팀 이름
+server.config.nameTeam2 2팀 이름
+server.config.nameTeam3 3팀 이름
+server.config.nameTeam4 4팀 이름
+server.config.nameTeam5 5팀 이름
+server.config.t1Dmg 1팀 피해량 배수
+server.config.t2Dmg 2팀 피해량 배수
+server.config.t3Dmg 3팀 피해량 배수
+server.config.t4Dmg 4팀 피해량 배수
+server.config.t5Dmg 5팀 피해량 배수
+server.config.selTeam 참가 시 팀 선택
+server.config.allowSpect 관전 중
+server.config.killRewards 처치 점수
+server.config.headshotOnly 헤드샷만 허용
+server.config.noSecondary 보조무기 비활성화
+server.config.noStreaks 연속 처치 비활성화
+server.config.canSlide 슬라이딩 활성화
+server.config.wallJP 벽 점프 강도
+server.config.autoJump 자동 점프
+server.config.bDrop 탄 낙차
+server.config.thirdPerson 3인칭
+server.config.requireCaptcha Captcha 요구하기
+server.config.nameTags 이름표 숨기기
+server.config.kCams 사망 화면
+server.config.noReload 재장전 없음
+server.config.private 비공개
+server.config.krRewards KR 보상
+server.config.forceDefault 기본 설정 강제
+server.config.warmupTime 준비 시간
+server.config.gamRounds 라운드
+server.config.objtvTime 거점 변경 시간
+server.config.forceSpawn 강제 리스폰 시간
+server.config.intermTmr 휴식 시간 (초)
+server.config.scoreLimit 점수 제한
+server.config.keepTScore 팀 점수 유지
+server.config.forceC 게임 모드 클래스 강제 적용
+server.config.logTim 시간 기록 (Race, Parkour 전용)
+server.config.hitBoxPad 히트박스 크기
+server.config.hpRegen HP 재생
+server.config.disableB 경계 비활성화
+server.config.throwMel 근접무기 던지기
+server.config.noCosm 외형 아이템 비활성화
+server.config.tstCmp 테스트 모드
+server.config.limitClasses 클래스 제한
+server.config.tmSize 팀 규모
+server.config.fallDmg 추락 피해
+server.config.fallDmgThr 추락 피해 높이
+server.config.noDraws 무승부 없음
+server.config.bstOfR 다전제
+social.login 로그인/회원가입
+social.login.failed 로그인 실패
+social.login.buy 구매하려면 로그인하세요
+social.login.sell 판매하려면 로그인하세요
+social.login.gift KR을 주려면 로그인하세요
+social.login.proccessing 로그인 중...
+social.since 시작일
+social.user.maps 이 유저의 게임
+social.user.mods 이 유저의 Mod
+social.maps.none 찾은 게임이 없습니다...
+social.mods.none 찾은 Mod가 없습니다...
+social.market.price.low 가격 오름차순
+social.market.price.list 가격 정렬 방법
+social.market.searching 검색 중...
+social.market.listed {0} 전에 게시됨
+social.market.list 아이템 게시하기
+social.market.unlist 게시 취소하기
+social.market.unlisting 게시 취소 중...
+social.market.posting 아이템 게시 중...
+social.market.req {0}레벨 이상이어야 합니다.
+social.market.cant KR이 부족합니다
+social.market.purchase 구매
+social.market.fee 게시 수수료 없음
+social.market.failed 실패했습니다. 다시 해보십시오.
+social.market.head 머리 아이템
+social.market.back 몸통 아이템
+social.market.waist 허리 아이템
+social.market.face 얼굴 아이템
+social.market.shoe 신발 아이템
+social.market.pet 펫 아이템
+social.market.melee 근접무기 아이템
+social.market.spray 스프레이 아이템
+social.market.dye 염료 아이템
+social.market.none 찾은 아이템이 없습니다.
+social.market.login 먼저 로그인하십시오.
+social.market.grace {0}초 후에 준비됩니다.
+social.market.sort 필터/정렬
+social.market.filter 검색
+social.market.sort2 정렬
+social.market.price.high 가격 내림차순
+social.trading.submitting 트레이드 요청 보내는 중...
+social.market.gift.amount 선물할
+social.market.fee.gift 수수료 없음
+social.market.gift KR 선물하기
+social.market.gift.msg 문자 남기기
+respawn.auto {0}초 후 자동 리스폰
+custom.host.ranked 랭크전 준비 중 게임 만들기 불가
+funds.insufficient 돈이 부족합니다
+funds.out KR이 부족합니다
+custom.passcode.long 비밀번호가 너무 길음
+custom.passcode.input 참가를 위해 서버 비밀번호를 입력하세요
+custom.tryagain 다시 시도해 주십시오
+purchase.kr.success {0} KR을 계정에 추가하였습니다
+limited.purchase.ask [{0}] 아이템을 {1} KR로 구매하시겠습니까?
+limited.purchase.success {0} 아이템을 인벤토리에 추가하였습니다
+pretend.exit 나가려면 [{0}] 버튼을 다시 누르세요
+settings.loaded 설정 로딩 완료
+settings.loaded.none 설정 입력 존재하지 않음
+account.login.required 로그인 필요
+account.banned.hack 이 계정은 핵 사용으로 차단되었습니다.
+account.banned.appeal 차단에 이의제기를 하려면, 여기에 연락을 취하세요.
+account.delete 계정의 완전삭제를 요청할 수 있고, 14일 내에 요청이 취소되지 않는다면 모든 연관정보가 영구적으로 삭제될 것입니다.
+account.delete.request 계정 삭제를 요청하시겠습니까?
+account.delete.cancel 계정 삭제 요청을 취소하시겠습니까?
+spin.free.available 무료 KR 받기!
+spin.free.claim 이 스핀은 한 시간마다 한 게임을 끝낸 후에 얻을 수 있습니다!
+spin.free.disable 이 팝업들은 설정에서 차단할 수 있습니다
+mod.reset.0 리스폰 후 적용됩니다.
+mod.reset.1 맵 물체는 새로고침의 영향을 받지 않음
+windows.profile.picture 프로필 사진 변경
+stats.assists 처치 지원
+stats.nukes 뉴크
+stats.melee 근접 처치
+stats.fistkills 격투 처치
+stats.thrownkills 투척 처치
+stats.headshots 헤드샷
+stats.wallbangs 관통 처치
+stats.sprays 스프레이 수
+windows.host.default.settings 기본 설정을 사용하면 플레이어 진행률과 최고 점수를 저장할 수 있습니다
+windows.host.default.commands /noclip, /god, /smite와 같은 호스트 명령어는 비활성화됩니다 
+windows.host.rewards KR 보상을 허용하면 서버 내에서 기본 설정을 강제하고 플레이어들이 맵에서 KR을 받을 수 있습니다
+windows.store.wheels.sub 스핀을 돌려 운을 시험하고 새 스킨을 얻을 기회를 노려보세요!
+windows.store.currency * 미국 달러(USD)로 표시된 가격은 결제 제공업체나 은행에서 정한 환율에 따라 현지 통화로 환전될 수 있습니다
+windows.store.creator 당신이 가장 좋아하는 크리에이터를 위해 크리에이터 코드를 사용하세요
+windows.chall.customs 사용자 지정 게임에서는 챌린지를 진행할 수 없습니다
+twitch.link Twitch 계정을 연동하겠습니까?
+twitch.unlink Twitch 계정의 연동을 해제하시겠습니까?
+windows.clan.leave 클랜을 탈퇴하시겠습니까?
+windows.clan.delete 클랜을 해체하시겠습니까?
+windows.clan.kick {0}님을 클랜에서 추방하시겠습니까?
+windows.store.premium.purchase {0}일 치의 프리미엄을 구매하시겠습니까?
+windows.store.premium.gift '{0}'님에게 {1}일 치의 프리미엄을 선물하시겠습니까?
+windows.playerlist.ban {0}님을 이 게임에서 차단하시겠습니까?
+windows.playerlist.flag {0}님에게 해커 태그를 지정하시겠습니까?
+windows.playerlist.unflag {0}님의 해커 태그를 제거하시겠습니까?
+windows.playerlist.punish {0}님에 대해 조치를 취하시겠습니까?
+item.view.open 모델 뷰어 열기
+item.view.more 더 많은 정보
+item.sell.cant 이 아이템은 판매할 수 없습니다
+item.sell.quick {0} 아이템을 빠른 판매할까요?
+social.profile.stats 기본 스탯
+social.profile.class 클래스 스탯
+social.profile.sales 판매
+social.profile.sales.market 마켓 판매
+social.profile.skins 스킨 [{0}]
+social.profile.skins.none 이 유저가 게시한 스킨이 없습니다
+social.profile.games 게임 [{0}]
+social.profile.games.none 이 유저가 게시한 게임이 없습니다
+social.profile.assets 에셋 [{0}]
+social.profile.assets.none 이 유저가 게시한 에셋이 없습니다
+social.profile.mods Mod [{0}]
+social.profile.mods.none 이 유저가 게시한 Mod가 없습니다
+social.search 검색 결과
+social.market.stats.rare 희귀 아이템
+social.market.stats.circulation 유통 개수
+social.market.stats.units 개 존재
+social.trades.in 받음
+social.trades.in.head 받은 트레이드 요청 ({0})
+social.trades.out 보냄
+social.trades.out.head 보낸 트레이드 요청 ({0})
+social.trades.history 기록
+social.trades.history.head 트레이드 기록 ({0})
+social.trades.decline 모두 거절
+social.trades.message 설정에서 트레이드 메시지를 활성화하세요
+social.trades.warning 이 트레이드에서는 아무런 아이템도 얻을 수 없습니다!
+social.trades.accept 정말 이 트레이드를 수락하시겠습니까?
+stats.airdrops KR 패키지
+settings.quality.flapAnim 스나이퍼 스코프 덮개 애니메이션
 `;
